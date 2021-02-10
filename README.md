@@ -8,63 +8,21 @@ Please replace them with your own photos and logos if you use this template!
 
 
 # Previews
+### CV ENGLISH
+![previews\hipstercv-pastel_eng](previews\hipstercv-darkhipster_eng.png)
 
-<table width="100%" margin-left="auto" margin-right="auto">
-	<tr>
-		<th>Classic: <code>darkhipster</code> and <code>lighthipster</code></th>
-	</tr>
-	<tr>
-		<td>
-			<img src="https://github.com/latex-ninja/hipster-cv/blob/master/previews/classic-hipstercvs.png" 
-				alt="HipsterCV Template Classic"
-				height="300"/>
-		</td>
-	</tr>			
-</table>
-
-<table width="100%" margin-left="auto" margin-right="auto">
-	<tr>
-		<th>Pastels: <code>verylight</code> and <code>pastel</code></th>
-	</tr>
-	<tr>
-		<td>
-			<img src="https://github.com/latex-ninja/hipster-cv/blob/master/previews/pastels-hipstercv.png" 
-				alt="HipsterCV Template Pastels"
-				height="300" />
-		</td>
-	</tr>			
-</table>
-
-<table width="100%" margin-left="auto" margin-right="auto">
-	<tr>
-		<th>Dark versions: <code>grey</code> and <code>allblack</code></th>
-	</tr>
-	<tr>
-		<td>
-			<img src="https://github.com/latex-ninja/hipster-cv/blob/master/previews/dark-hipster-cvs.png" 
-				alt="HipsterCV Template Dark" 
-				height="300"/>
-		</td>
-	</tr>			
-</table>
+### CV FRANÇAIS
+  ![previews\hipstercv-pastel_eng](previews\hipstercv-darkhipster_fr.png)
 
 ## Usage
 
-This is how to invoke the different colour themes
+This is how to invoke the different color themes
 
 ```latex
 \documentclass[alldark]{hipstercv}
 % insert whatever style you want to use where it says 'alldark' now:
 % available are: verylight, pastel, alldark, grey, darkhipster, lighthipster
 ```
-
-### See also the Simple Academic CV
-![Simple Academic CV](https://github.com/latex-ninja/hipster-cv/blob/master/previews/academic-cvs.png)
-![Simple Academic CV - Version 2](https://github.com/latex-ninja/simple-academic-resume/blob/master/simple-acad-cv.png)
-[Get it here.](https://github.com/latex-ninja/simple-academic-resume)
-
-
-
 
 ## License
 These CV themes are licensed under a [Creative Commons Attribution-ShareAlike

@@ -1,0 +1,228 @@
+\documentclass[darkhipster]{hipstercv}
+% available options are: darkhipster, lighthipster, pastel, allblack, grey, verylight
+\usepackage[utf8]{inputenc}
+\usepackage[default]{raleway}
+\usepackage[margin=1cm, a4paper]{geometry}
+
+%----------------------------------------------------------------------------------------
+% 	PIE CHART
+%----------------------------------------------------------------------------------------
+\input{./g/piechart.tex}
+
+%------------------------------------------------------------------ Variablen
+
+
+
+\newlength{\rightcolwidth}
+\newlength{\leftcolwidth}
+\setlength{\leftcolwidth}{0.3\textwidth}
+\setlength{\rightcolwidth}{0.65\textwidth}
+
+%------------------------------------------------------------------
+\title{Hipster-CV}
+\author{\LaTeX{} Ninja}
+\date{March 2019}
+
+\pagestyle{empty}
+\begin{document}
+
+
+\thispagestyle{empty}
+%-------------------------------------------------------------
+
+\section*{Start}
+
+
+
+\header{\bg{headerfontbox}{headerfontboxfont}{Monsieur} }{\bgupper{headerfontbox}{headerfontboxfont}{\bfseries\Huge Achraf Najmi}}{\bg{headerfontbox}{headerfontboxfont}{\large Physicien}}{./pic/me.jpg}{headerblue}{3.5cm}{2cm}
+
+
+
+%------------------------------------------------
+
+% hier muss die "unsichtbare" Überschrift rein, weil er sonst nicht die Paracols startet... komisch...
+\subsection*{}
+\vspace{4em}
+
+\setlength{\columnsep}{1.5cm}
+\columnratio{0.3}[0.65]
+\begin{paracol}{2}
+\hbadness5000
+%\backgroundcolor{c[1]}[rgb]{1,1,0.8} % cream yellow for column-1 %\backgroundcolor{g}[rgb]{0.8,1,1} % \backgroundcolor{l}[rgb]{0,0,0.7} % dark blue for left margin
+
+\paracolbackgroundoptions
+
+% 0.9,0.9,0.9 -- 0.8,0.8,0.8
+
+\vspace{-2em}
+\footnotesize
+{\setasidefontcolour
+\bgupper{cvgreen}{white}{Faits} \\
+\bg{cvgreen}{white}{Personnel} \\
+
+\begin{tabular}{ll}
+\faMale&Achraf NAJMI \\
+\faBirthdayCake&Né le:  24/07/1994 \\
+% \faGlobe&Nationality: Moroccan  \\
+\faMapMarker&Casablanca, Maroc \\
+\end{tabular}
+
+\bigskip
+
+\bgupper{cvgreen}{white}{Étude} \\
+\bg{cvgreen}{white}{Spécialisée} \\
+
+Électronique ~•~ Electrotechnique  \\Numérique ~•~ Télécommunication ~•~ Réseau
+
+\bigskip
+
+\bgupper{cvgreen}{white}{Compétences} \\
+\bg{cvgreen}{white}{Langues}
+\bigskip
+
+
+\begin{minipage}[t]{\leftcolwidth}
+\begin{tabular}{l | ll}
+\textbf{Arabe Classique} & C2 &\pictofraction{\faCircle}{cvpurple}{4}{black!30}{1}{\tiny}\\
+\textbf{Français} & B2 & \pictofraction{\faCircle}{cvpurple}{3}{black!30}{2}{\tiny}\\
+\textbf{Anglais} & A2 & \pictofraction{\faCircle}{cvpurple}{2}{black!30}{3}{\tiny}
+\end{tabular}
+\end{minipage}
+
+\bigskip
+
+\bg{cvgreen}{white}{Informatique et Programmation}\\
+
+\bubblediagram{{\textbf{\faPython \hspace{0.1em} Python}},  tkinter, matplotlib, sympy, numpy, smtplib, pandas, pyinstaller}
+
+\hspace{3cm} \color{labelcolour}{OS:} \hspace{0.5em}\icon{\faWindows}{labelcolour}{\Large} \hspace{0.5em} \icon{\faLinux}{labelcolour}{\Large} 
+\bigskip
+
+\bg{cvgreen}{white}{Programmes Logiciels} \\
+
+\begin{minipage}[t]{0.3\textwidth}
+\begin{tabular}{r @{\hspace{0.5em}}l}
+     \bg{skilllabelcolour}{iconcolour}{PyCharm} & \barrule{0.5}{0.5em}{cvgreen} \\
+     \bg{skilllabelcolour}{iconcolour}{MS Office} & \barrule{0.4}{0.5em}{orange} \\
+     \bg{skilllabelcolour}{iconcolour}{MS Visual Studio} &  \barrule{0.3}{0.5em}{cvpurple}\\
+     \bg{skilllabelcolour}{iconcolour}{Proteus} & \barrule{0.2}{0.5em}{headerblue} \\
+     %\bg{skilllabelcolour}{iconcolour}{Projects} & \barrule{0.2}{0.5em}{red} \\
+\end{tabular}
+
+
+%\dashrule{}{}
+\end{minipage}
+
+\bg{cvgreen}{white}{Technologies} \\
+\bigskip
+	\parbox[b][110pt][c]{0.35\textwidth}{
+		% PIE CHART	
+		\begin{piechart}{360}{1}{darkgray}{iconcolour}{skilllabelcolour}
+			\slice{12}{Projets}{yellow}
+			\slice{29}{Développement}{orange}
+			\slice{29}{Maintenance}{cvpurple}
+			\slice{16}{Recherche}{headerblue}
+			\slice{14}{Désign}{green}
+		\end{piechart}\vspace{-4em}
+	}
+\phantom{turn the page}
+
+\phantom{turn the page}
+}
+%-----------------------------------------------------------
+
+\switchcolumn
+
+\small
+\vspace{-2em}
+\section*{Résumé}
+
+\begin{tabular}{r| p{0.4\textwidth} c}
+    \cvevent{2019--2020}{Développement Informatique}{Casablanca}{Maroc \color{cvred}}{Language Python: Syntaxe, GUI, Data Science}{./pic/python.png} \\
+    
+    \cvevent{2013--2020}{Maintenance Informatique Freelance}{Casablanca}{Maroc \color{cvred}}{Diagnostique et réparation de Hardware \& Software...}{./pic/computer-maintenance.png} \\
+    
+    \cvevent{2012--2019}{Études Universitaires}{FSBM · UHIIC · Casablanca}{Maroc\color{cvred}}{Science Physique Électronique}{./pic/univh2fsbm.png}
+\end{tabular}
+
+\vspace{-1em}
+
+% \begin{minipage}[t]{0.4\textwidth}
+\section*{Diplômes}
+\begin{tabular}{r| p{0.5\textwidth} c}
+    \cvdegree{2019}{Licence Études Fondamentales Science Physique}{Université Hassan II de Casablanca}{FSBM \color{headerblue}}{Filière: Science Matière Physique | Parcours : Électronique}{./pic/univh2fsbm.png} \\
+    
+    \cvdegree{2017}{Diplôme d'Étude Universitaire Général}{Université Hassan II de Casablanca}{FSBM \color{headerblue}}{Filière: Science Matière Physique}{./pic/univh2fsbm.png} \\
+    
+    \cvdegree{2012}{Diplôme du Baccalauréat}{Lycée}{Ibno Zaidone \color{headerblue}}{Série : Sciences Expérimentales | Option : Science de la Vie et la Terre}{./pic/minister.jpg}
+\end{tabular}
+% \end{minipage}\hfill
+
+\vspace{-1em}
+\section*{Formations}
+\begin{tabular}{r| p{0.5\textwidth} c}
+    \cvdegree{2020}{Projet De Calculatrice Mathématique Avec Interface Graphique}{PyCharm Community Edition}{Python 3.7\color{cvorange}}{\href{https://www.github.com/AchrafNajmi/MathPy}{\icon{\faGithub}{cvpurple}{}github.com/AchrafNajmi/MathPy} (PROJET VERROUILLÉ JUSQU'À PRÉSENT)}{./pic/MathPy.png} \\
+    
+    \cvdegree{2018}{Projet de Fin d'Études}{UHIIC}{Faculté des Science Ben M'sick \color{cvorange}}{Conception et simulation d'un système photovoltaïque et réalisation d'un suiveur solaire.}{./pic/univh2fsbm.png} \\
+    
+    \cvdegree{2018}{Projet Entreprenariat}{UHIIC}{Faculté des Science Ben M'sick \color{cvorange}}{Projet de Création une Entreprise Commerciale "electrocherry".}{./pic/electro.png}
+\end{tabular}
+
+\begin{minipage}[t]{0.3\textwidth}
+\section*{Discours}
+\textcolor{iconcolour}{Je suis diplômé en Science Physique Électronique avec une expérience de travail dans des projets de recherche. Je suis toujours à la recherche de nouveaux projets interdisciplinaires passionnants liés à la physique.}
+
+\end{minipage}\hfill
+\begin{minipage}[t]{0.3\textwidth}
+
+\section*{Info et Program}
+\textcolor{iconcolour}{Actuellement, je développe des applications en temps réel avec Python et je fais une interface graphique avec tkinter et j'extrait du script file.py un fichier exécutable par Pyinstaller en utilisant auto py to exe.}
+\end{minipage}
+
+\begin{minipage}[t]{0.65\textwidth}
+\vspace{1em}
+\section*{Hobby}
+% usage \hobbyicon{<fontawesome icon}{Text}{background color of circle}{size of icon}{space text below icon}
+\mbox{
+	\parbox[b][2cm][c]{8cm}{
+		\hobbyicon{\color{iconcolour}\faPython}{Tutoriels \\Python}{headerblue}{\iconsize}{2em}
+% \hspace{1em}
+		\hobbyicon{\color{iconcolour}\faNewspaper}{Actualités \\Développement}{cvgreen}{\iconsize}{2em} % \hfill
+% \hspace{1em}
+		\hobbyicon{\color{iconcolour}\faStackOverflow}{Stack\\Overflow}{cvorange}{\iconsize}{2em}
+		\hspace{1em}
+		\hobbyicon{\color{iconcolour}\faChess}{Brain \\Games}{cvpurple}{\iconsize}{2em}
+		% \hspace{1em}
+		% \hobbyicon{\color{iconcolour}\faBicycle}{Fitness\\ \& GYM}{pink}{\iconsize}{2em}\\
+		}
+	\parbox[b][2cm][c]{4cm}{
+			\textcolor{iconcolour}{Dans mon temps libre, je recherche beaucoup de nouvelles sur les développeurs et j'apprends des autres sur Stackoverflow.}
+		}
+	}
+%\hobbyicon{\color{iconcolour}\faFutbol}{Playing}{red}{\iconsize}{2em}
+\end{minipage}
+
+
+
+
+
+
+
+
+
+\vfill{} % Whitespace before final footer
+
+%----------------------------------------------------------------------------------------
+%	FINAL FOOTER
+%----------------------------------------------------------------------------------------
+\setlength{\parindent}{0pt}
+\begin{minipage}[t]{\rightcolwidth}
+\begin{center}\fontfamily{\sfdefault}\selectfont \color{black!70}
+{\href{callto:+212622902221}{\icon{\faMobile}{black}{} +212 6 22 90 22 21} \href{mailto:najmi.achraf@gmail.com}{\icon{\faAt}{red}{} najmi.achraf@gmail.com} \href{https://www.github.com/AchrafNajmi}{\icon{\faGithub}{cvpurple}{} github.com/AchrafNajmi}  \newline\href{https://www.linkedin.com/in/achraf-d-najmi}{\icon{\faLinkedin}{blue}{} linkedin.com/in/achraf-d-najmi} \href{https://www.facebook.com/achraf.d.najmi}{\icon{\faFacebookSquare}{blue}{} facebook.com/achraf.d.najmi}
+}
+\end{center}\vspace{-4em}
+\end{minipage}
+
+
+\end{paracol}
+\end{document}
