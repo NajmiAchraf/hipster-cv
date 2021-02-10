@@ -9,10 +9,10 @@ Please replace them with your own photos and logos if you use this template!
 
 # Previews
 ### CV ENGLISH
-![previews\hipstercv-pastel_eng](previews\hipstercv-darkhipster_eng.png)
+  ![previews\hipstercv-pastel_eng](previews/hipstercv-darkhipster_eng.png)
 
 ### CV FRANÇAIS
-  ![previews\hipstercv-pastel_eng](previews\hipstercv-darkhipster_fr.png)
+  ![previews\hipstercv-pastel_eng](previews/hipstercv-darkhipster_fr.png)
 
 ## Usage
 
