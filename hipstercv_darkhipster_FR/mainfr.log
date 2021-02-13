@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 21.1) (preloaded format=pdflatex 2021.2.11)  13 FEB 2021 00:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 21.1) (preloaded format=pdflatex 2021.2.11)  13 FEB 2021 18:37
 entering extended mode
 **./mainfr.tex
 (mainfr.tex
@@ -1295,89 +1295,96 @@ t available
 (Font)              Font shape `U/fontawesomebrands0/regular/n' tried instead o
 n input line 104.
 
-Underfull \hbox (badness 10000) in paragraph at lines 107--108
+Underfull \hbox (badness 10000) in paragraph at lines 108--109
 
  []
 
+LaTeX Font Info:    Font shape `T1/Raleway-TLF/b/n' will be
+(Font)              scaled to size 6.0pt on input line 117.
 
-Overfull \hbox (13.06876pt too wide) in paragraph at lines 110--117
+Overfull \hbox (13.06876pt too wide) in paragraph at lines 111--119
 [][] 
  []
 
 
-Overfull \hbox (12.80386pt too wide) in paragraph at lines 109--121
+Overfull \hbox (12.80386pt too wide) in paragraph at lines 110--123
 [][] 
  []
 
 
-Overfull \hbox (39.83563pt too wide) in paragraph at lines 122--135
-[]
+Underfull \hbox (badness 10000) in paragraph at lines 125--128
+
+ []
+
+
+Overfull \hbox (10.15466pt too wide) in paragraph at lines 134--137
+[][]
  []
 
 LaTeX Font Info:    Font shape `T1/Raleway-TLF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 142.
-LaTeX Font Info:    Font shape `T1/Raleway-TLF/m/sc' will be
 (Font)              scaled to size 9.0pt on input line 144.
+LaTeX Font Info:    Font shape `T1/Raleway-TLF/m/sc' will be
+(Font)              scaled to size 9.0pt on input line 146.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 146.
+(Font)              <9> on input line 148.
 LaTeX Font Info:    Font shape `T1/Raleway-TLF/b/n' will be
-(Font)              scaled to size 9.0pt on input line 147.
+(Font)              scaled to size 9.0pt on input line 149.
 <./pic/python.png, id=34, 770.88pt x 770.88pt>
 File: ./pic/python.png Graphic file (type png)
 <use ./pic/python.png>
-Package pdftex.def Info: ./pic/python.png  used on input line 147.
+Package pdftex.def Info: ./pic/python.png  used on input line 149.
 (pdftex.def)             Requested size: 28.44212pt x 28.45274pt.
 <./pic/computer-maintenance.png, id=36, 513.92pt x 513.92pt>
 File: ./pic/computer-maintenance.png Graphic file (type png)
 <use ./pic/computer-maintenance.png>
-Package pdftex.def Info: ./pic/computer-maintenance.png  used on input line 149
+Package pdftex.def Info: ./pic/computer-maintenance.png  used on input line 151
 .
 (pdftex.def)             Requested size: 28.44997pt x 28.45274pt.
 
 LaTeX Font Warning: Font shape `TS1/Raleway-TLF/m/sc' undefined
 (Font)              using `TS1/Raleway-TLF/m/n' instead
-(Font)              for symbol `textperiodcentered' on input line 151.
+(Font)              for symbol `textperiodcentered' on input line 153.
 
 LaTeX Font Info:    Font shape `TS1/Raleway-TLF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 151.
+(Font)              scaled to size 9.0pt on input line 153.
 LaTeX Font Info:    Font shape `TS1/Raleway-TLF/m/sc' will be
-(Font)              scaled to size 9.0pt on input line 151.
+(Font)              scaled to size 9.0pt on input line 153.
 <./pic/univh2fsbm.png, id=37, 109.3686pt x 42.6393pt>
 File: ./pic/univh2fsbm.png Graphic file (type png)
 <use ./pic/univh2fsbm.png>
-Package pdftex.def Info: ./pic/univh2fsbm.png  used on input line 151.
+Package pdftex.def Info: ./pic/univh2fsbm.png  used on input line 153.
 (pdftex.def)             Requested size: 72.98119pt x 28.45274pt.
 
-Overfull \hbox (23.028pt too wide) in paragraph at lines 146--153
+Overfull \hbox (23.028pt too wide) in paragraph at lines 148--155
 [][] 
  []
 
 LaTeX Font Info:    Font shape `T1/Raleway-TLF/m/n' will be
-(Font)              scaled to size 7.0pt on input line 159.
-File: ./pic/univh2fsbm.png Graphic file (type png)
-<use ./pic/univh2fsbm.png>
-Package pdftex.def Info: ./pic/univh2fsbm.png  used on input line 159.
-(pdftex.def)             Requested size: 36.49059pt x 14.22636pt.
+(Font)              scaled to size 7.0pt on input line 161.
 File: ./pic/univh2fsbm.png Graphic file (type png)
 <use ./pic/univh2fsbm.png>
 Package pdftex.def Info: ./pic/univh2fsbm.png  used on input line 161.
 (pdftex.def)             Requested size: 36.49059pt x 14.22636pt.
+File: ./pic/univh2fsbm.png Graphic file (type png)
+<use ./pic/univh2fsbm.png>
+Package pdftex.def Info: ./pic/univh2fsbm.png  used on input line 163.
+(pdftex.def)             Requested size: 36.49059pt x 14.22636pt.
 <./pic/minister.jpg, id=38, 200.75pt x 167.62625pt>
 File: ./pic/minister.jpg Graphic file (type jpg)
 <use ./pic/minister.jpg>
-Package pdftex.def Info: ./pic/minister.jpg  used on input line 163.
+Package pdftex.def Info: ./pic/minister.jpg  used on input line 165.
 (pdftex.def)             Requested size: 17.03748pt x 14.22636pt.
 
-Overfull \hbox (15.11299pt too wide) in paragraph at lines 158--166
+Overfull \hbox (15.11299pt too wide) in paragraph at lines 160--168
 [][] 
  []
 
 LaTeX Font Info:    Font shape `U/fontawesomebrands0/solid/n' in size <7> not a
 vailable
 (Font)              Font shape `U/fontawesomebrands0/regular/n' tried instead o
-n input line 170.
+n input line 172.
 
-Underfull \hbox (badness 5133) in paragraph at lines 170--170
+Underfull \hbox (badness 5133) in paragraph at lines 172--172
 [][][][][]\U/fontawesomebrands0/regular/n/7 ¥[][]\T1/Raleway-TLF/m/n/7 github.c
 om/DeepEastWind/Hydrogeologie[][] (PRO-JET VER-ROUILLÉ JUSQU'À
  []
@@ -1385,52 +1392,52 @@ om/DeepEastWind/Hydrogeologie[][] (PRO-JET VER-ROUILLÉ JUSQU'À
 <./pic/earth.png, id=40, 256.96pt x 256.96pt>
 File: ./pic/earth.png Graphic file (type png)
 <use ./pic/earth.png>
-Package pdftex.def Info: ./pic/earth.png  used on input line 170.
+Package pdftex.def Info: ./pic/earth.png  used on input line 172.
 (pdftex.def)             Requested size: 14.22498pt x 14.22636pt.
-<./pic/MathPy.png, id=42, 192.72pt x 192.72pt>
+<./pic/MathPy.png, id=42, 411.136pt x 411.136pt>
 File: ./pic/MathPy.png Graphic file (type png)
 <use ./pic/MathPy.png>
-Package pdftex.def Info: ./pic/MathPy.png  used on input line 172.
-(pdftex.def)             Requested size: 14.224pt x 14.22636pt.
+Package pdftex.def Info: ./pic/MathPy.png  used on input line 174.
+(pdftex.def)             Requested size: 14.22185pt x 14.22636pt.
 File: ./pic/univh2fsbm.png Graphic file (type png)
 <use ./pic/univh2fsbm.png>
-Package pdftex.def Info: ./pic/univh2fsbm.png  used on input line 174.
+Package pdftex.def Info: ./pic/univh2fsbm.png  used on input line 176.
 (pdftex.def)             Requested size: 36.49059pt x 14.22636pt.
 
-Overfull \hbox (17.41699pt too wide) in paragraph at lines 169--178
+Overfull \hbox (17.41699pt too wide) in paragraph at lines 171--180
 [][] 
  []
 
 LaTeX Font Info:    Font shape `U/fontawesomebrands1/solid/n' in size <20.74> n
 ot available
 (Font)              Font shape `U/fontawesomebrands1/regular/n' tried instead o
-n input line 209.
+n input line 211.
 
-Underfull \hbox (badness 10000) in paragraph at lines 209--209
+Underfull \hbox (badness 10000) in paragraph at lines 211--211
 [][]\T1/Raleway-TLF/m/n/9 Dans mon temps li-bre,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 209--209
+Underfull \hbox (badness 10000) in paragraph at lines 211--211
 \T1/Raleway-TLF/m/n/9 je recherche beau-coup
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 209--209
+Underfull \hbox (badness 10000) in paragraph at lines 211--211
 \T1/Raleway-TLF/m/n/9 de nou-velles sur les
  []
 
 
-Overfull \hbox (2.84348pt too wide) in paragraph at lines 190--212
+Overfull \hbox (2.84348pt too wide) in paragraph at lines 192--214
 [][] 
  []
 
 LaTeX Font Info:    Font shape `U/fontawesomebrands0/solid/n' in size <9> not a
 vailable
 (Font)              Font shape `U/fontawesomebrands0/regular/n' tried instead o
-n input line 229.
+n input line 231.
 
-Overfull \hbox (2.84348pt too wide) in paragraph at lines 227--233
+Overfull \hbox (2.84348pt too wide) in paragraph at lines 229--235
 [][] 
  []
 
@@ -1446,11 +1453,11 @@ Package rerunfilecheck Info: File `mainfr.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 29450 strings out of 479616
- 608302 string characters out of 2862590
- 917702 words of memory out of 3000000
- 46054 multiletter control sequences out of 15000+200000
- 636205 words of font info for 85 fonts, out of 3000000 for 9000
+ 29452 strings out of 479616
+ 608347 string characters out of 2862590
+ 919130 words of memory out of 3000000
+ 46055 multiletter control sequences out of 15000+200000
+ 649827 words of font info for 87 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  142i,12n,144p,533b,1084s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/ACHRAF/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/fontawesom
@@ -1471,7 +1478,7 @@ ts/type1/impallari/raleway/Raleway-Bold.pfb><C:/Users/ACHRAF/AppData/Local/Prog
 rams/MiKTeX 2.9/fonts/type1/impallari/raleway/Raleway-Regular.pfb><C:/Users/ACH
 RAF/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
 
-Output written on mainfr.pdf (1 page, 674793 bytes).
+Output written on mainfr.pdf (1 page, 691963 bytes).
 PDF statistics:
  102 PDF objects out of 1000 (max. 8388607)
  2 named destinations out of 1000 (max. 500000)

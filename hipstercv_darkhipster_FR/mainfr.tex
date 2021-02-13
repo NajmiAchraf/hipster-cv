@@ -83,8 +83,8 @@
 
 \begin{minipage}[t]{\leftcolwidth}
 \begin{tabular}{l | ll}
-\textbf{Français} & B2 & \pictofraction{\faCircle}{cvpurple}{3}{black!30}{2}{\tiny}\\
-\textbf{Anglais} & A2 & \pictofraction{\faCircle}{cvpurple}{2}{black!30}{3}{\tiny}
+\textbf{Français} & B2 & \pictofraction{\faCircle}{cvpurple}{4}{black!30}{2}{\tiny}\\
+\textbf{Anglais} & A2 & \pictofraction{\faCircle}{cvpurple}{2}{black!30}{4}{\tiny}
 \end{tabular}
 \end{minipage}
 
@@ -102,35 +102,37 @@
 \icon{\faWindows}{labelcolour}{\Large} 
 % \hspace{0.3em} 
 \icon{\faLinux}{labelcolour}{\Large} 
-\bigskip
+% \bigskip
+\smallskip
 
 \bg{cvgreen}{white}{Programmes Logiciels} \\
 
 \begin{minipage}[t]{0.3\textwidth}
 \begin{tabular}{r @{\hspace{0.5em}}l}
      \bg{skilllabelcolour}{iconcolour}{PyCharm} & \barrule{0.5}{0.5em}{cvgreen} \\
-     \bg{skilllabelcolour}{iconcolour}{MS Office} & \barrule{0.4}{0.5em}{orange} \\
-     \bg{skilllabelcolour}{iconcolour}{MS Visual Studio} &  \barrule{0.3}{0.5em}{cvpurple}\\
-     \bg{skilllabelcolour}{iconcolour}{Proteus} & \barrule{0.2}{0.5em}{headerblue} \\
-     %\bg{skilllabelcolour}{iconcolour}{Projects} & \barrule{0.2}{0.5em}{red} \\
+     \bg{skilllabelcolour}{iconcolour}{MS Office} & \barrule{0.45}{0.5em}{orange} \\
+     \bg{skilllabelcolour}{iconcolour}{MS Visual Studio} &  \barrule{0.4}{0.5em}{cvpurple}\\
+     \bg{skilllabelcolour}{iconcolour}{Proteus} & \barrule{0.35}{0.5em}{headerblue} \\
+     \bg{skilllabelcolour}{iconcolour}{\faMarkdown \hspace{0.1em} Markdown} & \barrule{0.3}{0.5em}{yellow} \\
+     \bg{skilllabelcolour}{iconcolour}{\LaTeX} & \barrule{0.25}{0.5em}{red} \\
 \end{tabular}
 
 
-%\dashrule{}{}
+% \dashrule{}{}
 \end{minipage}
 
-\bg{cvgreen}{white}{Technologies} \\
-% \bigskip
-	\parbox[b][110pt][c]{0.35\textwidth}{
-		% PIE CHART	
-		\begin{piechart}{360}{1}{darkgray}{iconcolour}{skilllabelcolour}
-			\slice{12}{Projets}{yellow}
-			\slice{29}{Développement}{orange}
+\smallskip
+\bg{cvgreen}{white}{Technologies}\\
+% \parbox[b][110pt][c]{0.30\textwidth}{
+% PIE CHART	
+\begin{piechart}{360}{1}{darkgray}{iconcolour}{skilllabelcolour}
+			\slice{12}{Projects}{yellow}
+			\slice{29}{Development}{orange}
 			\slice{29}{Maintenance}{cvpurple}
-			\slice{16}{Recherche}{headerblue}
-			\slice{14}{Désigne}{green}
-		\end{piechart}\vspace{-4em}
-	}
+			\slice{16}{Research}{headerblue}
+			\slice{14}{Design}{green}
+\end{piechart}\vspace{-4em}
+% }
 \phantom{turn the page}
 
 \phantom{turn the page}
@@ -184,7 +186,7 @@
 \begin{minipage}[t]{0.3\textwidth}
 
 \section*{Info et Program}
-\textcolor{iconcolour}{Actuellement, je développe des applications en temps réel avec Python et je fais une interface graphique avec tkinter et j'extrait du script file.py un fichier exécutable par Pyinstaller en utilisant auto py to exe.}
+\textcolor{iconcolour}{Actuellement, je développe des applications en temps réel avec Python, et crée une interface graphique avec tkinter, et extrait du script `file.py` un fichier exécutable par pyinstaller en utilisant auto py to exe.}
 \end{minipage}
 
 \begin{minipage}[t]{0.65\textwidth}
