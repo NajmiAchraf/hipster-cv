@@ -22,12 +22,14 @@
 % ---------------------------------------------------------------------------
 \DeclareOption{darkhipster}{
 % Farben
-\definecolor{headerblue}{HTML}{2EB6E1}%
+\definecolor{headerblue}{HTML}{4B8BBE}%
 \definecolor{cvorange}{HTML}{FFC300}
 \definecolor{cvpurple}{HTML}{B32EE1}
 
 \definecolor{cvred}{HTML}{E1592E}
 \definecolor{cvgreen}{HTML}{5DE12E}
+\definecolor{cvyellow}{HTML}{FFE873}
+\definecolor{cvblue}{HTML}{2EB6E1}
 
 % TIMELINE
 \definecolor{timelinecolour}{HTML}{414B96} %#660022
