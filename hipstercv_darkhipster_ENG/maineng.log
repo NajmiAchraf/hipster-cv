@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 21.1) (preloaded format=pdflatex 2021.2.11)  4 MAR 2021 17:02
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 21.1) (preloaded format=pdflatex 2021.2.11)  5 MAR 2021 18:01
 entering extended mode
 **./maineng.tex
 (maineng.tex
@@ -1182,6 +1182,8 @@ LaTeX Font Info:    Font shape `T1/Raleway-TLF/b/n' will be
 (Font)              scaled to size 20.74pt on input line 40.
 LaTeX Font Info:    Font shape `T1/Raleway-TLF/b/n' will be
 (Font)              scaled to size 24.88pt on input line 40.
+LaTeX Font Info:    Font shape `T1/Raleway-TLF/b/n' will be
+(Font)              scaled to size 9.0pt on input line 40.
 <./pic/me.JPG, id=33, 963.6pt x 963.6pt>
 File: ./pic/me.JPG Graphic file (type jpg)
 <use ./pic/me.JPG>
@@ -1321,11 +1323,9 @@ Overfull \hbox (2.2969pt too wide) in paragraph at lines 148--151
 LaTeX Font Info:    Font shape `T1/Raleway-TLF/m/n' will be
 (Font)              scaled to size 9.0pt on input line 157.
 LaTeX Font Info:    Font shape `T1/Raleway-TLF/m/sc' will be
-(Font)              scaled to size 9.0pt on input line 158.
+(Font)              scaled to size 9.0pt on input line 159.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <9> on input line 160.
-LaTeX Font Info:    Font shape `T1/Raleway-TLF/b/n' will be
-(Font)              scaled to size 9.0pt on input line 161.
 <./pic/python.png, id=34, 770.88pt x 770.88pt>
 File: ./pic/python.png Graphic file (type png)
 <use ./pic/python.png>
@@ -1337,30 +1337,13 @@ File: ./pic/computer-maintenance.png Graphic file (type png)
 Package pdftex.def Info: ./pic/computer-maintenance.png  used on input line 163
 .
 (pdftex.def)             Requested size: 28.44997pt x 28.45274pt.
-LaTeX Font Info:    Trying to load font information for TS1+Raleway-TLF on inpu
-t line 165.
-
-("C:\Users\ACHRAF\AppData\Local\Programs\MiKTeX 2.9\tex/latex/raleway\ts1ralewa
-y-tlf.fd"
-File: TS1Raleway-TLF.fd 2014/07/28 (autoinst) Font definitions for TS1/Raleway-
-TLF.
-)
-
-LaTeX Font Warning: Font shape `TS1/Raleway-TLF/m/sc' undefined
-(Font)              using `TS1/Raleway-TLF/m/n' instead
-(Font)              for symbol `textperiodcentered' on input line 165.
-
-LaTeX Font Info:    Font shape `TS1/Raleway-TLF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 165.
-LaTeX Font Info:    Font shape `TS1/Raleway-TLF/m/sc' will be
-(Font)              scaled to size 9.0pt on input line 165.
 <./pic/univh2fsbm.png, id=37, 109.3686pt x 42.6393pt>
 File: ./pic/univh2fsbm.png Graphic file (type png)
 <use ./pic/univh2fsbm.png>
 Package pdftex.def Info: ./pic/univh2fsbm.png  used on input line 165.
-(pdftex.def)             Requested size: 72.98119pt x 28.45274pt.
+(pdftex.def)             Requested size: 54.73589pt x 21.33955pt.
 
-Overfull \hbox (23.028pt too wide) in paragraph at lines 160--167
+Overfull \hbox (4.7827pt too wide) in paragraph at lines 160--167
 [][] 
  []
 
@@ -1369,25 +1352,21 @@ LaTeX Font Info:    Font shape `T1/Raleway-TLF/m/n' will be
 File: ./pic/univh2fsbm.png Graphic file (type png)
 <use ./pic/univh2fsbm.png>
 Package pdftex.def Info: ./pic/univh2fsbm.png  used on input line 173.
-(pdftex.def)             Requested size: 36.49059pt x 14.22636pt.
+(pdftex.def)             Requested size: 54.73589pt x 21.33955pt.
 File: ./pic/univh2fsbm.png Graphic file (type png)
 <use ./pic/univh2fsbm.png>
 Package pdftex.def Info: ./pic/univh2fsbm.png  used on input line 175.
-(pdftex.def)             Requested size: 36.49059pt x 14.22636pt.
+(pdftex.def)             Requested size: 54.73589pt x 21.33955pt.
 <./pic/minister.jpg, id=38, 200.75pt x 167.62625pt>
 File: ./pic/minister.jpg Graphic file (type jpg)
 <use ./pic/minister.jpg>
 Package pdftex.def Info: ./pic/minister.jpg  used on input line 177.
-(pdftex.def)             Requested size: 17.03748pt x 14.22636pt.
+(pdftex.def)             Requested size: 34.07497pt x 28.45274pt.
 
-Overfull \hbox (15.11299pt too wide) in paragraph at lines 172--180
+Overfull \hbox (6.3265pt too wide) in paragraph at lines 172--180
 [][] 
  []
 
-LaTeX Font Info:    Font shape `U/fontawesomebrands1/solid/n' in size <9> not a
-vailable
-(Font)              Font shape `U/fontawesomebrands1/regular/n' tried instead o
-n input line 185.
 LaTeX Font Info:    Font shape `U/fontawesomebrands0/solid/n' in size <7> not a
 vailable
 (Font)              Font shape `U/fontawesomebrands0/regular/n' tried instead o
@@ -1396,18 +1375,18 @@ n input line 185.
 File: ./pic/earth.png Graphic file (type png)
 <use ./pic/earth.png>
 Package pdftex.def Info: ./pic/earth.png  used on input line 185.
-(pdftex.def)             Requested size: 14.22498pt x 14.22636pt.
+(pdftex.def)             Requested size: 28.44997pt x 28.45274pt.
 <./pic/MathPy.png, id=42, 411.136pt x 411.136pt>
 File: ./pic/MathPy.png Graphic file (type png)
 <use ./pic/MathPy.png>
 Package pdftex.def Info: ./pic/MathPy.png  used on input line 187.
-(pdftex.def)             Requested size: 14.22185pt x 14.22636pt.
+(pdftex.def)             Requested size: 28.44997pt x 28.45274pt.
 File: ./pic/univh2fsbm.png Graphic file (type png)
 <use ./pic/univh2fsbm.png>
 Package pdftex.def Info: ./pic/univh2fsbm.png  used on input line 189.
-(pdftex.def)             Requested size: 36.49059pt x 14.22636pt.
+(pdftex.def)             Requested size: 54.73589pt x 21.33955pt.
 
-Overfull \hbox (17.41699pt too wide) in paragraph at lines 183--193
+Overfull \hbox (8.63051pt too wide) in paragraph at lines 183--193
 [][] 
  []
 
@@ -1425,6 +1404,10 @@ LaTeX Font Info:    Font shape `U/fontawesomebrands0/solid/n' in size <9> not a
 vailable
 (Font)              Font shape `U/fontawesomebrands0/regular/n' tried instead o
 n input line 244.
+LaTeX Font Info:    Font shape `U/fontawesomebrands1/solid/n' in size <9> not a
+vailable
+(Font)              Font shape `U/fontawesomebrands1/regular/n' tried instead o
+n input line 244.
 
 Overfull \hbox (2.84348pt too wide) in paragraph at lines 242--248
 [][] 
@@ -1435,41 +1418,36 @@ Overfull \hbox (2.84348pt too wide) in paragraph at lines 242--248
 {C:/Users/ACHRAF/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./pic/me.J
 PG> <./pic/python.png> <./pic/computer-maintenance.png> <./pic/univh2fsbm.png> 
 <./pic/minister.jpg> <./pic/earth.png> <./pic/MathPy.png>] (maineng.aux)
-
-LaTeX Font Warning: Some font shapes were not available, defaults substituted.
-
 Package rerunfilecheck Info: File `maineng.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 29452 strings out of 479616
- 608371 string characters out of 2862590
- 920197 words of memory out of 3000000
- 46056 multiletter control sequences out of 15000+200000
- 649121 words of font info for 85 fonts, out of 3000000 for 9000
+ 29395 strings out of 479616
+ 606805 string characters out of 2862590
+ 919043 words of memory out of 3000000
+ 46005 multiletter control sequences out of 15000+200000
+ 647983 words of font info for 82 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  142i,12n,144p,542b,1083s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Users/ACHRAF/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/raleway/a_
-2bcjq6.enc}{C:/Users/ACHRAF/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/f
-ontawesome5/fa5brands0.enc}{C:/Users/ACHRAF/AppData/Local/Programs/MiKTeX 2.9/f
-onts/enc/dvips/fontawesome5/fa5free3.enc}{C:/Users/ACHRAF/AppData/Local/Program
-s/MiKTeX 2.9/fonts/enc/dvips/fontawesome5/fa5brands1.enc}{C:/Users/ACHRAF/AppDa
-ta/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/fontawesome5/fa5free1.enc}{C:/User
-s/ACHRAF/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/fontawesome5/fa5free
-0.enc}{C:/Users/ACHRAF/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/ralewa
-y/a_bzmckq.enc}{C:/Users/ACHRAF/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvi
-ps/fontawesome5/fa5free2.enc}{C:/Users/ACHRAF/AppData/Local/Programs/MiKTeX 2.9
-/fonts/enc/dvips/raleway/a_yqxcf3.enc}<C:/Users/ACHRAF/AppData/Local/Programs/M
-iKTeX 2.9/fonts/type1/public/fontawesome5/FontAwesome5Brands-Regular.pfb><C:/Us
-ers/ACHRAF/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/fontawesome5/Fo
-ntAwesome5Free-Solid.pfb><C:/Users/ACHRAF/AppData/Local/Programs/MiKTeX 2.9/fon
-ts/type1/impallari/raleway/Raleway-Bold.pfb><C:/Users/ACHRAF/AppData/Local/Prog
-rams/MiKTeX 2.9/fonts/type1/impallari/raleway/Raleway-Regular.pfb><C:/Users/ACH
-RAF/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
-
-Output written on maineng.pdf (1 page, 697222 bytes).
+{C:/Users/ACHRAF/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/fontawesom
+e5/fa5brands0.enc}{C:/Users/ACHRAF/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/
+dvips/fontawesome5/fa5free3.enc}{C:/Users/ACHRAF/AppData/Local/Programs/MiKTeX 
+2.9/fonts/enc/dvips/fontawesome5/fa5brands1.enc}{C:/Users/ACHRAF/AppData/Local/
+Programs/MiKTeX 2.9/fonts/enc/dvips/fontawesome5/fa5free1.enc}{C:/Users/ACHRAF/
+AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/fontawesome5/fa5free0.enc}{C:
+/Users/ACHRAF/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/raleway/a_bzmck
+q.enc}{C:/Users/ACHRAF/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/fontaw
+esome5/fa5free2.enc}{C:/Users/ACHRAF/AppData/Local/Programs/MiKTeX 2.9/fonts/en
+c/dvips/raleway/a_yqxcf3.enc}<C:/Users/ACHRAF/AppData/Local/Programs/MiKTeX 2.9
+/fonts/type1/public/fontawesome5/FontAwesome5Brands-Regular.pfb><C:/Users/ACHRA
+F/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/fontawesome5/FontAwesome
+5Free-Solid.pfb><C:/Users/ACHRAF/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
+impallari/raleway/Raleway-Bold.pfb><C:/Users/ACHRAF/AppData/Local/Programs/MiKT
+eX 2.9/fonts/type1/impallari/raleway/Raleway-Regular.pfb><C:/Users/ACHRAF/AppDa
+ta/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
+Output written on maineng.pdf (1 page, 696961 bytes).
 PDF statistics:
- 102 PDF objects out of 1000 (max. 8388607)
+ 99 PDF objects out of 1000 (max. 8388607)
  2 named destinations out of 1000 (max. 500000)
  156 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -181,9 +181,21 @@
 {\color{#3}\rule[\baselineskip]{#1\textwidth}{#2}}\vspace{0.5em}
 }
 
-\newcommand{\cvevent}[6]{{#1} & \textbf{#2}\newline\textsc{#3} $\cdot$ {#4 ~\faMapMarker}\newline{\color{black!70}\footnotesize #5}\vspace{1.5em} & \raisebox{-0.7\height}{\includegraphics[height=1cm]{#6}}}
+% \newcommand{\cvevent}[6]{{#1} & \textbf{#2}\newline\textsc{#3} $\cdot$ {#4 ~\faMapMarker}\newline{\color{black!70}\footnotesize #5}\vspace{1.5em} & \raisebox{-0.7\height}{\includegraphics[height=1cm]{#6}}}
 
-\newcommand{\cvdegree}[6]{{#1} & \textbf{#2}\newline\textsc{#3} $\cdot$ {#4 {\phantom{i}\footnotesize ~\faUniversity}}\newline{\color{black!70}\scriptsize #5}\vspace{0.5em} & \raisebox{-0.7\height}{\includegraphics[height=0.5cm]{#6}}}
+% \newcommand{\cvschool}[6]{{#1} & \textbf{#2}\newline\textsc{#3} $\cdot$ {#4 {\phantom{i}\footnotesize ~\faUniversity}}\newline{\color{black!70}\scriptsize #5}\vspace{0.5em} & \raisebox{-0.7\height}{\includegraphics[height=0.5cm]{#6}}}
+
+\newcommand{\cvuniv}[4]{{#1} & \textbf{#2}\newline{\color{black!70}\footnotesize #3}\vspace{1.5em} & \raisebox{-0.7\height}{\includegraphics[height=0.75cm]{#4}}}
+
+\newcommand{\cvresume}[4]{{#1} & \textbf{#2}\newline{\color{black!70}\footnotesize #3}\vspace{1.5em} & \raisebox{-0.7\height}{\includegraphics[height=1cm]{#4}}}
+
+\newcommand{\cvdegree}[6]{{#1} & \textbf{#2 {\phantom{i}\footnotesize ~\faGraduationCap}}\newline\textsc{#3} $\cdot$ {#4 {\phantom{i}\footnotesize ~\faUniversity}}\newline{\color{black!70}\scriptsize #5}\vspace{0.5em} & \raisebox{-0.7\height}{\includegraphics[height=0.75cm]{#6}}}
+
+\newcommand{\cvschool}[6]{{#1} & \textbf{#2 {\phantom{i}\footnotesize ~\faGraduationCap}}\newline\textsc{#3} $\cdot$ {#4 {\phantom{i}\footnotesize ~\faUniversity}}\newline{\color{black!70}\scriptsize #5}\vspace{0.5em} & \raisebox{-0.7\height}{\includegraphics[height=1cm]{#6}}}
+
+\newcommand{\cvproject}[6]{{#1} & \textbf{#2}\newline{\textsc{#3}} $\cdot$ {#4 {\phantom{i}\footnotesize ~\faUniversity}}\newline{\color{black!70}\scriptsize #5}\vspace{0.5em} & \raisebox{-0.7\height}{\includegraphics[height=0.75cm]{#6}}}
+
+\newcommand{\cvpython}[6]{{#1} & \textbf{#2}\newline\textsc{#3} $\cdot$ {#4 {\phantom{i}\footnotesize ~\faPython}}\newline{\color{black!70}\scriptsize #5}\vspace{0.5em} & \raisebox{-0.7\height}{\includegraphics[height=1cm]{#6}}}
 
 
 
