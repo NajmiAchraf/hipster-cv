@@ -9,6 +9,12 @@
 %----------------------------------------------------------------------------------------
 \input{./g/piechart.tex}
 
+
+%----------------------------------------------------------------------------------------
+% 	TIMELINE VERTICAL & HORIZONTAL CHART
+%----------------------------------------------------------------------------------------
+\input{./g/timeline.tex}
+
 %------------------------------------------------------------------ Variablen
 
 
@@ -158,25 +164,30 @@ Je suis toujours à la recherche de nouveaux projets interdisciplinaires passion
 \small
 \vspace{-2em}
 \section*{CV Court}
+\begin{timelinehorizontal}{2012}{2022}{11}{headerfontbox}
 
-\begin{tabular}{r| p{0.4\textwidth} c}
-    \cvresume{2019--2021}{Développement Informatique}{\faPython \hspace{0.1em} Python 3 : Syntaxe, GUI, Data Science}{./pic/python.png} \\
-    
-    \cvresume{2013--2021}{Maintenance Informatique FreeLance}{Diagnostique et réparation de Hardware \& Software...}{./pic/computer-maintenance.png} \\
-    
-    \cvuniv{2012--2019}{Études Universitaires}{Physique Électronique}{./pic/univh2fsbm.png}
-\end{tabular}
+			\cvevent{9/2012}{6/2019}{Études Universitaires : Physique Électronique}{1.7}{-8.5}{black!70}{white}{-0.9}
+	
+			\cvevent{6/2013}{3/2021}{Maintenance Informatique}{1.1}{-5}{headerblue}{white}{-1}
+			
+			\cvevent{9/2019}{3/2021}{Développement Informatique : \hspace{0.1em} \faPython \hspace{0.1em} Python 3 : Syntaxe, GUI, Data Science}{2.3}{-3}{cvyellow}{headerfontbox}{-1.1}
+	
+	
+\end{timelinehorizontal}
 
 % \vspace{-0.5em}
 
 % \begin{minipage}[t]{0.4\textwidth}
-\section*{Diplômes}
+\section*{Diplômes Et Certifications}
 \begin{tabular}{r| p{0.45\textwidth} c}
+
+    \cvcertpy{2021}{Developer Certification \color{cvred}}{Scientific Computing with Python}{freeCodeCamp \color{headerblue}}{\href{https://freecodecamp.org/certification/deepeastwind/scientific-computing-with-python-v7}{\textcolor{black!70}{\faFreeCodeCamp} \hspace{1pt} freecodecamp.org/certification/deepeastwind/scientific-computing-with-python-v7}}{./pic/python.png} \\
+
     \cvdegree{2019}{Licence d'Études Fondamentales (LEF) \color{cvred}}{Université Hassan II de Casablanca}{FSBM \color{headerblue}}{Filière : Science Matière Physique | Parcours : Électronique}{./pic/univh2fsbm.png} \\
     
     \cvdegree{2017}{Diplôme d'Études Universitaires Générales (DEUG) \color{cvred}}{Université Hassan II de Casablanca}{FSBM \color{headerblue}}{Filière : Science Matière Physique}{./pic/univh2fsbm.png} \\
     
-    \cvschool{2012}{Diplôme du Baccalauréat \color{cvred}}{Lycée}{Ibno Zaidone \color{headerblue}}{Série : Sciences Expérimentales | Option : Science de la Vie et la Terre}{./pic/minister.jpg}
+    % \cvschool{2012}{Diplôme du Baccalauréat \color{cvred}}{Lycée}{Ibno Zaidone \color{headerblue}}{Série : Sciences Expérimentales | Option : Science de la Vie et la Terre}{./pic/minister.jpg}
 \end{tabular}
 % \end{minipage}\hfill
 

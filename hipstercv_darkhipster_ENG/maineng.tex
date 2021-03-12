@@ -4,10 +4,17 @@
 \usepackage[default]{raleway}
 \usepackage[margin=1cm, a4paper]{geometry}
 
+
 %----------------------------------------------------------------------------------------
 % 	PIE CHART
 %----------------------------------------------------------------------------------------
 \input{./g/piechart.tex}
+
+
+%----------------------------------------------------------------------------------------
+% 	TIMELINE VERTICAL & HORIZONTAL CHART
+%----------------------------------------------------------------------------------------
+\input{./g/timeline.tex}
 
 %------------------------------------------------------------------ Variablen
 
@@ -154,27 +161,32 @@ I am always looking for exciting new interdisciplinary projects related to physi
 %-----------------------------------------------------------
 \switchcolumn
 
-\small\vspace{-2em}
-
+\small
+\vspace{-2em}
 \section*{Short Resume}
-\begin{tabular}{r| p{0.4\textwidth} c}
-    \cvresume{2019--2021}{IT Development}{\faPython \hspace{0.1em} Python 3 : Syntax, GUI, Data Science}{./pic/python.png} \\
-    
-    \cvresume{2017--2021}{Computer Maintenance FreeLance}{Diagnostic and reparation of Hardware \& Software...}{./pic/computer-maintenance.png} \\
-    
-    \cvuniv{2012--2019}{University Studies}{Physics Electronic}{./pic/univh2fsbm.png}
-\end{tabular}
-
+\begin{timelinehorizontal}{2012}{2022}{11}{headerfontbox}
+	
+			\cvevent{9/2012}{6/2019}{University Studies : Physics Electronic}{1.6}{-8}{black!70}{white}{-0.9}
+	
+			\cvevent{6/2013}{3/2021}{Computer Maintenance}{1}{-5}{headerblue}{white}{-1}
+			
+			\cvevent{9/2019}{3/2021}{IT Development : \hspace{0.1em} \faPython \hspace{0.1em} Python 3 : Syntax, GUI, Data Science}{2.2}{-2.5}{cvyellow}{headerfontbox}{-1.1}
+	
+\end{timelinehorizontal}
+		
 % \vspace{-1em}
 
 % \begin{minipage}[t]{0.4\textwidth}
-\section*{Degrees}
+\section*{Degrees And Certifications}
 \begin{tabular}{r| p{0.45\textwidth} c}
+
+    \cvcertpy{2021}{Developer Certification \color{cvred}}{Scientific Computing with Python}{freeCodeCamp \color{headerblue}}{\href{https://freecodecamp.org/certification/deepeastwind/scientific-computing-with-python-v7}{\textcolor{black!70}{\faFreeCodeCamp} \hspace{1pt} freecodecamp.org/certification/deepeastwind/scientific-computing-with-python-v7}}{./pic/python.png} \\
+
     \cvdegree{2019}{Bachelor of General Studies (BGS) \color{cvred}}{University Hassan II of Casablanca}{FSBM \color{headerblue}}{Series : Matter Science Physics | Course : Electronic}{./pic/univh2fsbm.png} \\
     
     \cvdegree{2017}{Associate of General Studies (AGS) \color{cvred}}{University Hassan II of Casablanca}{FSBM \color{headerblue}}{Series : Matter Science Physics}{./pic/univh2fsbm.png} \\
     
-    \cvschool{2012}{High School Degree \color{cvred}}{High School}{Ibno Zaidone \color{headerblue}}{Series : Experimental Sciences | Option : Science of Life and Earth}{./pic/minister.jpg}
+    % \cvschool{2012}{High School Degree \color{cvred}}{High School}{Ibno Zaidone \color{headerblue}}{Series : Experimental Sciences | Option : Science of Life and Earth}{./pic/minister.jpg}
 \end{tabular}
 % \end{minipage}\hfill
 
