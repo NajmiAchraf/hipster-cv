@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 21.1) (preloaded format=pdflatex 2021.2.11)  12 MAR 2021 22:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 21.1) (preloaded format=pdflatex 2021.2.11)  14 MAR 2021 01:38
 entering extended mode
 **./mainfr.tex
 (mainfr.tex
@@ -1254,13 +1254,15 @@ Underfull \hbox (badness 10000) in paragraph at lines 106--107
 
  []
 
+LaTeX Font Info:    Font shape `T1/Raleway-TLF/m/n' will be
+(Font)              scaled to size 14.4pt on input line 108.
 LaTeX Font Info:    Trying to load font information for U+fontawesomebrands1 on
  input line 108.
 
 ("C:\Users\ACHRAF\AppData\Local\Programs\MiKTeX 2.9\tex/latex/fontawesome5\ufon
 tawesomebrands1.fd")
-LaTeX Font Info:    Font shape `U/fontawesomebrands1/solid/n' in size <8> not a
-vailable
+LaTeX Font Info:    Font shape `U/fontawesomebrands1/solid/n' in size <14.4> no
+t available
 (Font)              Font shape `U/fontawesomebrands1/regular/n' tried instead o
 n input line 108.
 LaTeX Font Info:    Trying to load font information for U+fontawesomefree3 on i
@@ -1282,12 +1284,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 113--114
 
  []
 
-LaTeX Font Info:    Font shape `T1/Raleway-TLF/m/n' will be
-(Font)              scaled to size 14.4pt on input line 117.
-LaTeX Font Info:    Font shape `U/fontawesomebrands1/solid/n' in size <14.4> no
-t available
-(Font)              Font shape `U/fontawesomebrands1/regular/n' tried instead o
-n input line 117.
 LaTeX Font Info:    Trying to load font information for U+fontawesomebrands0 on
  input line 122.
 
@@ -1319,24 +1315,14 @@ Underfull \hbox (badness 10000) in paragraph at lines 145--148
  []
 
 
-Overfull \hbox (8.26265pt too wide) in paragraph at lines 154--157
+Overfull \hbox (28.39497pt too wide) in paragraph at lines 153--156
 [][]
  []
 
 LaTeX Font Info:    Font shape `T1/Raleway-TLF/m/n' will be
-(Font)              scaled to size 9.0pt on input line 164.
+(Font)              scaled to size 9.0pt on input line 163.
 LaTeX Font Info:    Font shape `T1/Raleway-TLF/m/sc' will be
-(Font)              scaled to size 9.0pt on input line 166.
-Missing character: There is no . in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no . in font nullfont!
-Missing character: There is no 0 in font nullfont!
+(Font)              scaled to size 9.0pt on input line 165.
 Missing character: There is no . in font nullfont!
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
@@ -1348,84 +1334,88 @@ Missing character: There is no 0 in font nullfont!
 LaTeX Font Info:    Font shape `U/fontawesomebrands1/solid/n' in size <9> not a
 vailable
 (Font)              Font shape `U/fontawesomebrands1/regular/n' tried instead o
-n input line 173.
+n input line 172.
 
-Overfull \hbox (11.49777pt too wide) in paragraph at lines 176--177
+Overfull \hbox (10.78445pt too wide) in paragraph at lines 174--175
 [][] 
  []
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 182.
+(Font)              <9> on input line 180.
+LaTeX Font Info:    Font shape `U/fontawesomebrands1/solid/n' in size <8> not a
+vailable
+(Font)              Font shape `U/fontawesomebrands1/regular/n' tried instead o
+n input line 182.
 LaTeX Font Info:    Font shape `T1/Raleway-TLF/m/n' will be
-(Font)              scaled to size 7.0pt on input line 184.
+(Font)              scaled to size 7.0pt on input line 182.
 LaTeX Font Info:    Font shape `U/fontawesomebrands0/solid/n' in size <7> not a
 vailable
 (Font)              Font shape `U/fontawesomebrands0/regular/n' tried instead o
-n input line 184.
+n input line 182.
 <./pic/python.png, id=35, 770.88pt x 770.88pt>
 File: ./pic/python.png Graphic file (type png)
 <use ./pic/python.png>
-Package pdftex.def Info: ./pic/python.png  used on input line 184.
+Package pdftex.def Info: ./pic/python.png  used on input line 182.
 (pdftex.def)             Requested size: 28.44212pt x 28.45274pt.
 <./pic/univh2fsbm.png, id=37, 109.3686pt x 42.6393pt>
 File: ./pic/univh2fsbm.png Graphic file (type png)
 <use ./pic/univh2fsbm.png>
-Package pdftex.def Info: ./pic/univh2fsbm.png  used on input line 186.
+Package pdftex.def Info: ./pic/univh2fsbm.png  used on input line 184.
 (pdftex.def)             Requested size: 54.73589pt x 21.33955pt.
 File: ./pic/univh2fsbm.png Graphic file (type png)
 <use ./pic/univh2fsbm.png>
-Package pdftex.def Info: ./pic/univh2fsbm.png  used on input line 188.
+Package pdftex.def Info: ./pic/univh2fsbm.png  used on input line 186.
 (pdftex.def)             Requested size: 54.73589pt x 21.33955pt.
 
-Overfull \hbox (6.3265pt too wide) in paragraph at lines 182--193
+Overfull \hbox (6.3265pt too wide) in paragraph at lines 180--191
 [][] 
  []
 
 <./pic/earth.png, id=39, 256.96pt x 256.96pt>
 File: ./pic/earth.png Graphic file (type png)
 <use ./pic/earth.png>
-Package pdftex.def Info: ./pic/earth.png  used on input line 197.
+Package pdftex.def Info: ./pic/earth.png  used on input line 195.
 (pdftex.def)             Requested size: 28.44997pt x 28.45274pt.
 <./pic/MathPy.png, id=41, 411.136pt x 411.136pt>
 File: ./pic/MathPy.png Graphic file (type png)
 <use ./pic/MathPy.png>
-Package pdftex.def Info: ./pic/MathPy.png  used on input line 199.
+Package pdftex.def Info: ./pic/MathPy.png  used on input line 197.
 (pdftex.def)             Requested size: 28.44997pt x 28.45274pt.
 File: ./pic/univh2fsbm.png Graphic file (type png)
 <use ./pic/univh2fsbm.png>
-Package pdftex.def Info: ./pic/univh2fsbm.png  used on input line 201.
+Package pdftex.def Info: ./pic/univh2fsbm.png  used on input line 199.
 (pdftex.def)             Requested size: 54.73589pt x 21.33955pt.
 
-Overfull \hbox (8.63051pt too wide) in paragraph at lines 196--205
+Overfull \hbox (8.63051pt too wide) in paragraph at lines 194--203
 [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 238--238
+Underfull \hbox (badness 10000) in paragraph at lines 236--236
 \T1/Raleway-TLF/m/n/9 sur in-ter-net à la recherche
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 238--238
+Underfull \hbox (badness 10000) in paragraph at lines 236--236
 \T1/Raleway-TLF/m/n/9 de nou-velles sur le monde
  []
 
 
-Overfull \hbox (2.62027pt too wide) in paragraph at lines 238--240
+Overfull \hbox (2.62027pt too wide) in paragraph at lines 236--238
 [][] 
  []
 
 
-Overfull \hbox (2.84348pt too wide) in paragraph at lines 219--241
+Overfull \hbox (2.84348pt too wide) in paragraph at lines 217--239
 [][] 
  []
 
 LaTeX Font Info:    Font shape `U/fontawesomebrands0/solid/n' in size <9> not a
 vailable
 (Font)              Font shape `U/fontawesomebrands0/regular/n' tried instead o
-n input line 258.
+n input line 256.
 
-Overfull \hbox (2.84348pt too wide) in paragraph at lines 256--262
+Overfull \hbox (2.84348pt too wide) in paragraph at lines 254--260
 [][] 
  []
 
@@ -1438,13 +1428,13 @@ Package rerunfilecheck Info: File `mainfr.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 29531 strings out of 479616
- 609251 string characters out of 2862590
- 933002 words of memory out of 3000000
- 46141 multiletter control sequences out of 15000+200000
+ 29525 strings out of 479616
+ 609093 string characters out of 2862590
+ 929874 words of memory out of 3000000
+ 46135 multiletter control sequences out of 15000+200000
  647983 words of font info for 82 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 142i,12n,144p,542b,1087s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 142i,12n,144p,542b,1110s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/ACHRAF/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/fontawesom
 e5/fa5brands0.enc}{C:/Users/ACHRAF/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/
 dvips/fontawesome5/fa5free3.enc}{C:/Users/ACHRAF/AppData/Local/Programs/MiKTeX 
@@ -1461,7 +1451,7 @@ F/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/fontawesome5/FontAwesome
 impallari/raleway/Raleway-Bold.pfb><C:/Users/ACHRAF/AppData/Local/Programs/MiKT
 eX 2.9/fonts/type1/impallari/raleway/Raleway-Regular.pfb><C:/Users/ACHRAF/AppDa
 ta/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
-Output written on mainfr.pdf (1 page, 687001 bytes).
+Output written on mainfr.pdf (1 page, 686542 bytes).
 PDF statistics:
  98 PDF objects out of 1000 (max. 8388607)
  2 named destinations out of 1000 (max. 500000)

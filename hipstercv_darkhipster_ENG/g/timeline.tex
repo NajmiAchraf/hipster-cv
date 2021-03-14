@@ -86,21 +86,21 @@
     %calc fullrange= number of years
     \pgfmathparse{(#2-#1)}
     \let\fullrange\pgfmathresult
-    \draw[draw=black,line width=4pt] (0,0) -- (-#3,0) ;    %the timeline
+    \draw[draw=#4,line width=4pt] (0,0) -- (-#3,0) ;    %the timeline
     
     %for each year put a horizontal line in place
     \setcounter{yearcount}{1}
     \whiledo{\value{yearcount} < \fullrange}{
-        \draw[fill=white,draw=black, line width=2pt]  (-#3/\fullrange*\value{yearcount},0) circle (0.2);
+        \draw[fill=white,draw=#4, line width=2pt]  (-#3/\fullrange*\value{yearcount},0) circle (0.2);
         \stepcounter{yearcount}
     }
 	
 	%start year
-    \filldraw[fill=white!100,draw=black,line width=3pt] (0,0) circle (0.5);
-    \node[draw=none, label=\textcolor{black}{\textbf{\small#1}}] at (0,-0.35) {}; 
+    \filldraw[fill=white!100,draw=#4,line width=3pt] (0,0) circle (0.5);
+    \node[draw=none, label=\textcolor{#4}{\textbf{\small#1}}] at (0,-0.35) {}; 
     %end year
-    \filldraw[fill=white!100,draw=black,line width=5pt] (-#3,0) circle (0.75);
-    \node[draw=none, label=\textcolor{black}{\textbf{\large#2}}] at (-#3,-0.35) {}; 
+    \filldraw[fill=white!100,draw=#4,line width=5pt] (-#3,0) circle (0.75);
+    \node[draw=none, label=\textcolor{#4}{\textbf{\large#2}}] at (-#3,-0.35) {}; 
     
     
 }%end begin part of newenv
