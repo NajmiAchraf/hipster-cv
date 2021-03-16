@@ -20,23 +20,23 @@
 \definecolor{pblue}{HTML}{0395DE}
 \newcommand{\iconsize}{\huge}
 % ---------------------------------------------------------------------------
-\DeclareOption{python}{
+\DeclareOption{darkpython}{
 % Farben
-\definecolor{headerblue}{HTML}{4B8BBE}%
+\definecolor{headerblue}{HTML}{306998}%
 \definecolor{cvorange}{RGB}{255,150,0}
 \definecolor{cvpurple}{HTML}{B32EE1}
 
 \definecolor{cvred}{HTML}{E1592E}
 \definecolor{cvgreen}{HTML}{5DE12E}
-\definecolor{cvyellow}{HTML}{FFE873}
+\definecolor{cvyellow}{HTML}{FFD43B}
 
 
 % SMART DIAGRAM
-\definecolor{bgdiagram}{HTML}{FFE873} 
+\definecolor{fontdiagram}{HTML}{FFD43B} 
 
 % TIMELINE
-\definecolor{timelinecolour}{HTML}{464646} %#660022
-\definecolor{jackbeige}{RGB}{230, 230, 230}
+\definecolor{timelinefont}{HTML}{FFFFFF} %#660022
+\definecolor{timelinebg}{HTML}{404040}
 
 % PIE CHART
 \definecolor{bgchart}{RGB}{64, 64, 64}
@@ -59,6 +59,45 @@
 \definecolor{labelcolour}{HTML}{FFFFFF}
 \definecolor{iconcolour}{HTML}{000000}
 \definecolor{headerfontbox}{HTML}{000000}
+\definecolor{headerfontboxfont}{HTML}{FFD43B}
+\definecolor{skilllabelcolour}{HTML}{b3b3b3}
+}
+% ---------------------------------------------------------------------------
+\DeclareOption{lightpython}{
+% Farben
+\definecolor{headerblue}{HTML}{4B8BBE}%
+\definecolor{cvorange}{RGB}{255,150,0}
+\definecolor{cvpurple}{HTML}{B32EE1}
+
+\definecolor{cvred}{HTML}{B66978}
+\definecolor{cvgreen}{HTML}{78B669}
+\definecolor{cvyellow}{HTML}{FFE873}
+
+
+% SMART DIAGRAM
+\definecolor{fontdiagram}{HTML}{FFE873} 
+
+
+% TIMELINE
+\definecolor{timelinefont}{HTML}{000000} %#660022
+\definecolor{timelinebg}{HTML}{E6E6E6}
+
+% PIE CHART
+\definecolor{bgchart}{RGB}{230, 230, 230}
+
+\newcommand{\paracolbackgroundoptions}{
+\backgroundcolor{c[0](4pt,4pt)(0.5\columnsep,4pt)}[rgb]{0.9,0.9,0.9}
+\backgroundcolor{c[1](0.5\columnsep,4pt)(4pt,4pt)}[rgb]{1,1,1}
+\backgroundcolor{C[0](10000pt,10000pt)(0.5\columnsep,10000pt)}[rgb]{0.9,0.9,0.9}
+\backgroundcolor{C[1](0.5\columnsep,10000pt)(10000pt,10000pt)}[rgb]{1,1,1}
+}
+
+\newcommand{\setasidefontcolour}{
+\color{black}
+}
+\definecolor{labelcolour}{HTML}{000000}
+\definecolor{iconcolour}{HTML}{000000}
+\definecolor{headerfontbox}{HTML}{000000}
 \definecolor{headerfontboxfont}{HTML}{FFE873}
 \definecolor{skilllabelcolour}{HTML}{b3b3b3}
 }
@@ -75,11 +114,11 @@
 
 
 % SMART DIAGRAM
-\definecolor{bgdiagram}{HTML}{FFFFFF} 
+\definecolor{fontdiagram}{HTML}{FFFFFF} 
 
 % TIMELINE
-\definecolor{timelinecolour}{HTML}{464646} %#660022
-\definecolor{jackbeige}{RGB}{230, 230, 230} 
+\definecolor{timelinefont}{HTML}{FFFFFF} %#660022
+\definecolor{timelinebg}{HTML}{404040} 
 
 % PIE CHART
 \definecolor{bgchart}{RGB}{64, 64, 64}
@@ -118,12 +157,12 @@
 
 
 % SMART DIAGRAM
-\definecolor{bgdiagram}{HTML}{FFFFFF} 
+\definecolor{fontdiagram}{HTML}{FFFFFF} 
 
 
 % TIMELINE
-\definecolor{timelinecolour}{HTML}{464646} %#660022
-\definecolor{jackbeige}{HTML}{E6E6E6}
+\definecolor{timelinefont}{HTML}{000000} %#660022
+\definecolor{timelinebg}{HTML}{E6E6E6}
 
 % PIE CHART
 \definecolor{bgchart}{RGB}{230, 230, 230}
@@ -151,17 +190,17 @@
 \definecolor{cvpurple}{HTML}{B66978}
 
 \definecolor{cvred}{HTML}{B66978}
-\definecolor{cvgreen}{HTML}{78B669}
-\definecolor{cvyellow}{HTML}{FFE873}
+\definecolor{cvgreen}{HTML}{FFD43B}
+\definecolor{cvyellow}{HTML}{78B669}
 
 
 % SMART DIAGRAM
-\definecolor{bgdiagram}{HTML}{FFFFFF} 
+\definecolor{fontdiagram}{HTML}{FFFFFF} 
 
 
 % TIMELINE
-\definecolor{timelinecolour}{HTML}{464646} %#660022
-\definecolor{jackbeige}{HTML}{E6E6E6}
+\definecolor{timelinefont}{HTML}{000000} %#660022
+\definecolor{timelinebg}{HTML}{E6E6E6}
 
 % PIE CHART
 \definecolor{bgchart}{RGB}{230, 230, 230}
@@ -196,12 +235,12 @@
 
 
 % SMART DIAGRAM
-\definecolor{bgdiagram}{HTML}{FFFFFF} 
+\definecolor{fontdiagram}{HTML}{FFFFFF} 
 
 
 % TIMELINE
-\definecolor{timelinecolour}{HTML}{464646} %#660022
-\definecolor{jackbeige}{HTML}{000000}
+\definecolor{timelinefont}{HTML}{000000} %#660022
+\definecolor{timelinebg}{HTML}{E6E6E6}
 
 % PIE CHART
 \definecolor{bgchart}{RGB}{230, 230, 230}
@@ -254,12 +293,12 @@
 
 
 % SMART DIAGRAM
-\definecolor{bgdiagram}{HTML}{FFFFFF} 
+\definecolor{fontdiagram}{HTML}{FFFFFF} 
 
 
 % TIMELINE
-\definecolor{timelinecolour}{HTML}{464646} %#660022
-\definecolor{jackbeige}{RGB}{70, 70, 70}
+\definecolor{timelinefont}{HTML}{FFFFFF} %#660022
+\definecolor{timelinebg}{HTML}{404040}
 
 % PIE CHART
 \definecolor{bgchart}{RGB}{64, 64, 64}
@@ -316,12 +355,12 @@
 
 
 % SMART DIAGRAM
-\definecolor{bgdiagram}{HTML}{FFFFFF} 
+\definecolor{fontdiagram}{HTML}{FFFFFF} 
 
 
 % TIMELINE
-\definecolor{timelinecolour}{HTML}{464646} %#660022
-\definecolor{jackbeige}{RGB}{70, 70, 70}
+\definecolor{timelinefont}{HTML}{000000} %#660022
+\definecolor{timelinebg}{HTML}{E6E6E6}
 
 % PIE CHART
 \definecolor{bgchart}{RGB}{230, 230, 230}
