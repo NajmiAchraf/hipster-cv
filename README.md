@@ -153,9 +153,9 @@ Please replace them with your own photos and logos if you use this template!
 This is how to invoke the different color themes
 
 ```latex
-\documentclass[alldark]{hipstercv}
-% insert whatever style you want to use where it says 'alldark' now:
-% available are: verylight, pastel, alldark, grey, darkhipster, lighthipster
+\documentclass[darkpython]{hipstercv}
+% insert whatever style you want to use where it says 'darkpython' now:
+% available options are: darkpython, lightpython, darkhipster, lighthipster, pastel, allblack, grey, verylight
 ```
 
 ## License
