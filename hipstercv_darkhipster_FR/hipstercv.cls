@@ -20,20 +20,69 @@
 \definecolor{pblue}{HTML}{0395DE}
 \newcommand{\iconsize}{\huge}
 % ---------------------------------------------------------------------------
-\DeclareOption{darkhipster}{
+\DeclareOption{python}{
 % Farben
 \definecolor{headerblue}{HTML}{4B8BBE}%
-\definecolor{cvorange}{HTML}{FFC300}
+\definecolor{cvorange}{RGB}{255,150,0}
 \definecolor{cvpurple}{HTML}{B32EE1}
 
 \definecolor{cvred}{HTML}{E1592E}
 \definecolor{cvgreen}{HTML}{5DE12E}
 \definecolor{cvyellow}{HTML}{FFE873}
-\definecolor{cvblue}{HTML}{2EB6E1}
+
+
+% SMART DIAGRAM
+\definecolor{bgdiagram}{HTML}{FFE873} 
 
 % TIMELINE
-\definecolor{timelinecolour}{HTML}{414B96} %#660022
-\definecolor{jackbeige}{RGB}{226,212,186} 
+\definecolor{timelinecolour}{HTML}{464646} %#660022
+\definecolor{jackbeige}{RGB}{230, 230, 230}
+
+% PIE CHART
+\definecolor{bgchart}{RGB}{64, 64, 64}
+
+
+\newcommand{\paracolbackgroundoptions}{
+%\backgroundcolor{c[1]}[rgb]{1,1,0.8} % cream yellow for column-1 %\backgroundcolor{g}[rgb]{0.8,1,1} % \backgroundcolor{l}[rgb]{0,0,0.7} % dark blue for left margin
+
+\backgroundcolor{c[0](4pt,4pt)(0.5\columnsep,4pt)}[rgb]{0.25,0.25,0.25}
+\backgroundcolor{c[1](0.5\columnsep,4pt)(4pt,4pt)}[rgb]{1,1,1}
+\backgroundcolor{C[0](10000pt,10000pt)(0.5\columnsep,10000pt)}[rgb]{0.25,0.25,0.25}
+\backgroundcolor{C[1](0.5\columnsep,10000pt)(10000pt,10000pt)}[rgb]{1,1,1}
+
+% 0.9,0.9,0.9 -- 0.8,0.8,0.8
+}
+\newcommand{\setasidefontcolour}{
+\color{white}
+}
+
+\definecolor{labelcolour}{HTML}{FFFFFF}
+\definecolor{iconcolour}{HTML}{000000}
+\definecolor{headerfontbox}{HTML}{000000}
+\definecolor{headerfontboxfont}{HTML}{FFE873}
+\definecolor{skilllabelcolour}{HTML}{b3b3b3}
+}
+% ---------------------------------------------------------------------------
+\DeclareOption{darkhipster}{
+% Farben
+\definecolor{headerblue}{HTML}{2EB6E1}%
+\definecolor{cvorange}{RGB}{255,150,0}
+\definecolor{cvpurple}{HTML}{B32EE1}
+
+\definecolor{cvred}{HTML}{E1592E}
+\definecolor{cvgreen}{HTML}{FFE873}
+\definecolor{cvyellow}{HTML}{5DE12E}
+
+
+% SMART DIAGRAM
+\definecolor{bgdiagram}{HTML}{FFFFFF} 
+
+% TIMELINE
+\definecolor{timelinecolour}{HTML}{464646} %#660022
+\definecolor{jackbeige}{RGB}{230, 230, 230} 
+
+% PIE CHART
+\definecolor{bgchart}{RGB}{64, 64, 64}
 
 
 \newcommand{\paracolbackgroundoptions}{
@@ -60,16 +109,24 @@
 \DeclareOption{lighthipster}{
 % Farben
 \definecolor{headerblue}{HTML}{2EB6E1}%
-\definecolor{cvorange}{HTML}{FFC300}
+\definecolor{cvorange}{RGB}{255,150,0}
 \definecolor{cvpurple}{HTML}{B32EE1}
 
 \definecolor{cvred}{HTML}{E1592E}
-\definecolor{cvgreen}{HTML}{5DE12E}
+\definecolor{cvgreen}{HTML}{FFE873}
+\definecolor{cvyellow}{HTML}{5DE12E}
+
+
+% SMART DIAGRAM
+\definecolor{bgdiagram}{HTML}{FFFFFF} 
 
 
 % TIMELINE
-\definecolor{timelinecolour}{HTML}{414B96} %#660022
-\definecolor{jackbeige}{RGB}{226,212,186}  
+\definecolor{timelinecolour}{HTML}{464646} %#660022
+\definecolor{jackbeige}{HTML}{E6E6E6}
+
+% PIE CHART
+\definecolor{bgchart}{RGB}{230, 230, 230}
 
 \newcommand{\paracolbackgroundoptions}{
 \backgroundcolor{c[0](4pt,4pt)(0.5\columnsep,4pt)}[rgb]{0.9,0.9,0.9}
@@ -90,16 +147,24 @@
 \DeclareOption{pastel}{
 % Farben
 \definecolor{headerblue}{HTML}{6978B6}%
-\definecolor{cvorange}{HTML}{FFC300}
+\definecolor{cvorange}{RGB}{255,150,0}
 \definecolor{cvpurple}{HTML}{B66978}
 
 \definecolor{cvred}{HTML}{B66978}
 \definecolor{cvgreen}{HTML}{78B669}
+\definecolor{cvyellow}{HTML}{FFE873}
+
+
+% SMART DIAGRAM
+\definecolor{bgdiagram}{HTML}{FFFFFF} 
 
 
 % TIMELINE
-\definecolor{timelinecolour}{HTML}{414B96} %#660022
-\definecolor{jackbeige}{RGB}{226,212,186} 
+\definecolor{timelinecolour}{HTML}{464646} %#660022
+\definecolor{jackbeige}{HTML}{E6E6E6}
+
+% PIE CHART
+\definecolor{bgchart}{RGB}{230, 230, 230}
 
 \newcommand{\paracolbackgroundoptions}{
 \backgroundcolor{c[0](4pt,4pt)(0.5\columnsep,4pt)}[rgb]{0.9,0.9,0.9}
@@ -127,11 +192,19 @@
 
 \definecolor{cvred}{HTML}{000000}
 \definecolor{cvgreen}{HTML}{000000}
+\definecolor{cvyellow}{HTML}{000000}
+
+
+% SMART DIAGRAM
+\definecolor{bgdiagram}{HTML}{FFFFFF} 
 
 
 % TIMELINE
-\definecolor{timelinecolour}{HTML}{414B96} %#660022
-\definecolor{jackbeige}{RGB}{226,212,186} 
+\definecolor{timelinecolour}{HTML}{464646} %#660022
+\definecolor{jackbeige}{HTML}{000000}
+
+% PIE CHART
+\definecolor{bgchart}{RGB}{230, 230, 230}
  
 \newcommand{\paracolbackgroundoptions}{
 \backgroundcolor{c[0](4pt,4pt)(0.5\columnsep,4pt)}[rgb]{0.9,0.9,0.9}
@@ -177,11 +250,19 @@
 
 \definecolor{cvred}{HTML}{b3b3b3}
 \definecolor{cvgreen}{HTML}{212F3D}
+\definecolor{cvyellow}{HTML}{212F3D}
+
+
+% SMART DIAGRAM
+\definecolor{bgdiagram}{HTML}{FFFFFF} 
 
 
 % TIMELINE
-\definecolor{timelinecolour}{HTML}{414B96} %#660022
-\definecolor{jackbeige}{RGB}{226,212,186} 
+\definecolor{timelinecolour}{HTML}{464646} %#660022
+\definecolor{jackbeige}{RGB}{70, 70, 70}
+
+% PIE CHART
+\definecolor{bgchart}{RGB}{64, 64, 64}
  
 \newcommand{\paracolbackgroundoptions}{
 %\backgroundcolor{c[1]}[rgb]{1,1,0.8} % cream yellow for column-1 %\backgroundcolor{g}[rgb]{0.8,1,1} % \backgroundcolor{l}[rgb]{0,0,0.7} % dark blue for left margin
@@ -231,11 +312,19 @@
 
 \definecolor{cvred}{HTML}{b3b3b3}
 \definecolor{cvgreen}{HTML}{00b3b3}
+\definecolor{cvyellow}{HTML}{00b3b3}
+
+
+% SMART DIAGRAM
+\definecolor{bgdiagram}{HTML}{FFFFFF} 
 
 
 % TIMELINE
-\definecolor{timelinecolour}{HTML}{414B96} %#660022
-\definecolor{jackbeige}{RGB}{226,212,186} 
+\definecolor{timelinecolour}{HTML}{464646} %#660022
+\definecolor{jackbeige}{RGB}{70, 70, 70}
+
+% PIE CHART
+\definecolor{bgchart}{RGB}{230, 230, 230}
  
 \newcommand{\paracolbackgroundoptions}{
 \backgroundcolor{c[0](4pt,4pt)(0.5\columnsep,4pt)}[rgb]{0.9,0.9,0.9}

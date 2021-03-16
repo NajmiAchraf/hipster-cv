@@ -1,5 +1,5 @@
-\documentclass[darkhipster]{hipstercv}
-% available options are: darkhipster, lighthipster, pastel, allblack, grey, verylight
+\documentclass[python]{hipstercv}
+% available options are: python, darkhipster, lighthipster, pastel, allblack, grey, verylight
 \usepackage[utf8]{inputenc}
 \usepackage[default]{raleway}
 \usepackage[margin=1cm, a4paper]{geometry}
@@ -40,7 +40,7 @@
 
 
 
-\header{\bgupper{cvyellow}{headerfontbox}{\bfseries\Huge Achraf Najmi}}{\bg{cvyellow}{headerfontbox}{\large Électro Info Physicien}}{\bg{cvyellow}{headerfontbox}{\small 
+\header{\bgupper{headerfontbox}{headerfontboxfont}{\bfseries\Huge Achraf Najmi}}{\bg{headerfontbox}{headerfontboxfont}{\large Électro Info Physicien}}{\bg{headerfontbox}{headerfontboxfont}{\small 
 \begin{minipage}[t]{0.55\textwidth}
 Je suis diplômé en Physique Électronique avec une expérience de travail dans des projets de recherche. 
 Je suis toujours à la recherche de nouveaux projets interdisciplinaires passionnants liés à la physique.
@@ -105,7 +105,8 @@ Je suis toujours à la recherche de nouveaux projets interdisciplinaires passion
 
 \bg{cvyellow}{iconcolour}{Informatique et Programmation}\\
 
-\bubblediagram{{\icon{\faPython}{headerblue}{\Large} \\ \textbf{\color{headerblue}{Python 3}}}, \faFileCode \hspace{0.1em} pyinstaller, \faSuperscript \hspace{0.1em} sympy, \faSortNumericDown \hspace{0.1em} numpy, \faTable \hspace{0.1em} pandas, \faFeather \hspace{0.1em} tkinter, \faChartLine \hspace{0.1em} matplotlib}
+\bubblediagram{{\icon{\faPython}{bgdiagram}{\Large} \\ \textbf{\color{bgdiagram}{Python 3}}}, \faFileCode \hspace{0.1em} pyinstaller, \faSuperscript \hspace{0.1em} sympy, \faSortNumericDown \hspace{0.1em} numpy, \faTable \hspace{0.1em} pandas, \faFeather \hspace{0.1em} tkinter, \faChartLine \hspace{0.1em} matplotlib}
+
 
 % \bigskip
 \smallskip
@@ -128,13 +129,14 @@ Je suis toujours à la recherche de nouveaux projets interdisciplinaires passion
 
 \begin{minipage}[t]{0.3\textwidth}
 \begin{tabular}{r @{\hspace{0.5em}}l}
-     \bg{skilllabelcolour}{iconcolour}{PyCharm IDE} & \barrule{0.4}{0.5em}{cvgreen} \\
-     % \bg{skilllabelcolour}{iconcolour}{Microsoft Office} & \barrule{0.4}{0.5em}{orange} \\
-     \bg{skilllabelcolour}{iconcolour}{Visual Studio IDE} & \barrule{0.35}{0.5em}{cvpurple}\\
-     \bg{skilllabelcolour}{iconcolour}{Proteus CAD} & \barrule{0.3}{0.5em}{cvblue} \\
-     \bg{skilllabelcolour}{iconcolour}{\faMarkdown \hspace{0.1em} Markdown} & \barrule{0.25}{0.5em}{orange} \\
-     \bg{skilllabelcolour}{iconcolour}{\LaTeX} & \barrule{0.2}{0.5em}{cvyellow} \\
-     \bg{skilllabelcolour}{iconcolour}{\faCodeBranch \hspace{0.1em} \faGit} & \barrule{0.15}{0.5em}{red} \\
+     \bg{skilllabelcolour}{iconcolour}{PyCharm IDE} & \barrule{0.4}{0.5em}{materialgreen} \\
+     % \bg{skilllabelcolour}{iconcolour}{Microsoft Office} & \barrule{0.4}{0.5em}{materialamber} \\
+     \bg{skilllabelcolour}{iconcolour}{Visual Studio IDE} & \barrule{0.35}{0.5em}{materialindigo}\\
+     \bg{skilllabelcolour}{iconcolour}{Proteus CAD} & \barrule{0.3}{0.5em}{materialcyan} \\
+     \bg{skilllabelcolour}{iconcolour}{\faMarkdown \hspace{0.1em} Markdown} & \barrule{0.25}{0.5em}{materialorange} \\
+     \bg{skilllabelcolour}{iconcolour}{\LaTeX} & \barrule{0.2}{0.5em}{materiallime} \\
+     \bg{skilllabelcolour}{iconcolour}{\faCodeBranch \hspace{0.1em} \faGit} & \barrule{0.15}{0.5em}{materialteal} \\
+    
 \end{tabular}
 
 
@@ -145,17 +147,17 @@ Je suis toujours à la recherche de nouveaux projets interdisciplinaires passion
 \bg{cvyellow}{iconcolour}{Technologies}\\
 % \parbox[b][110pt][c]{0.30\textwidth}{
 % PIE CHART	
-\begin{piechart}{360}{1}{darkgray}{iconcolour}{skilllabelcolour}
-			\slice{33}{Développement}{headerblue}
-			\slice{28}{Maintenance}{cvyellow}
-			\slice{23}{Schématisation}{orange}
-			\slice{18}{Désigne}{cvpurple}
+\begin{piechart}{360}{1}{bgchart}{iconcolour}{skilllabelcolour}
+			\slice{33}{Développement}{cvyellow}
+			\slice{28}{Maintenance}{cvred}
+			\slice{23}{Schématisation}{headerblue}
+			\slice{18}{Désigne}{cvorange}
 \end{piechart}\vspace{-4em}
-% }
+}
 \phantom{turn the page}
 
 \phantom{turn the page}
-}
+% }
 %-----------------------------------------------------------
 
 \switchcolumn
@@ -163,14 +165,14 @@ Je suis toujours à la recherche de nouveaux projets interdisciplinaires passion
 \small
 \vspace{-2em}
 \section*{CV Court}
-\begin{timelinehorizontal}{2017}{2022}{11}{black!70}
+\begin{timelinehorizontal}{2017}{2022}{11}{timelinecolour}
 	
-			\cvevent{2/2017}{9/2018}{Maintenance Informatique}{1}{-4.5}{headerblue}{white}{-1.1}
+			\cvevent{2/2017}{9/2018}{Maintenance Informatique}{1}{-4.5}{headerblue}{iconcolour}{-1}
 	
-			\cvevent{9/2017}{6/2019}{Études de licence : Physique Électronique}{1.6}{-7}{cvyellow}{headerfontbox}{-1}
+			\cvevent{9/2017}{6/2019}{Études de licence : Physique Électronique}{1.6}{-7}{cvyellow}{iconcolour}{-0.9}
 			
-			\cvevent{9/2019}{3/2021}{Développement Informatique : \hspace{0.1em} \faPython \hspace{0.1em} Python 3 : Syntaxe, GUI, Data Science}{2.2}{-5.5}{headerblue}{white}{-0.9}
-	
+			\cvevent{9/2019}{3/2021}{Développement Informatique : \hspace{0.1em} \faPython \hspace{0.1em} Python 3 : Syntaxe, GUI, Data Science}{2.2}{-5.5}{cvyellow}{iconcolour}{-0.9}
+			
 \end{timelinehorizontal}
 
 % \vspace{-0.5em}
@@ -179,7 +181,7 @@ Je suis toujours à la recherche de nouveaux projets interdisciplinaires passion
 \section*{Diplômes Et Certifications}
 \begin{tabular}{r| p{0.45\textwidth} c}
 
-    \cvcertpy{2021}{Developer Certification \color{cvred}}{Scientific Computing with Python}{freeCodeCamp \color{headerblue}}{\href{https://freecodecamp.org/certification/deepeastwind/scientific-computing-with-python-v7}{\textcolor{black!70}{\faFreeCodeCamp} \hspace{1pt} freecodecamp.org/certification/deepeastwind/scientific-computing-with-python-v7}}{./pic/python.png} \\
+    \cvcertpy{2021}{Developer Certification \color{cvred}}{Scientific Computing with Python}{freeCodeCamp \color{headerblue}}{\href{https://freecodecamp.org/certification/deepeastwind/scientific-computing-with-python-v7}{\textcolor{black!70}{\faFreeCodeCamp} \hspace{1pt} \textcolor{black!70}{freecodecamp.org/certification/deepeastwind/scientific-computing-with-python-v7}}}{./pic/python.png} \\
 
     \cvdegree{2019}{Licence d'Études Fondamentales (LEF) \color{cvred}}{Université Hassan II de Casablanca}{FSBM \color{headerblue}}{Filière : Science Matière Physique | Parcours : Électronique}{./pic/univh2fsbm.png} \\
     
@@ -192,11 +194,11 @@ Je suis toujours à la recherche de nouveaux projets interdisciplinaires passion
 % \vspace{-0.5em}
 \section*{Projets}
 \begin{tabular}{r| p{0.45\textwidth} c}
-    \cvpython{2021}{Projet de Hydrogéologie}{Python 3.7}{Hydrologie des eaux souterraines \color{cvorange}}{\href{https://github.com/DeepEastWind/Hydrogeologie}{\icon{\faGithub}{cvpurple}{}github.com/DeepEastWind/Hydrogeologie (PROJET PRIVÉ)}}{./pic/earth.png} \\
+    \cvpython{2021}{Projet de Hydrogéologie}{Python 3.7}{Hydrologie des eaux souterraines \color{cvyellow}}{\href{https://github.com/DeepEastWind/Hydrogeologie}{\icon{\faGithub}{cvpurple}{}\textcolor{black!70}{github.com/DeepEastWind/Hydrogeologie (PRIVATE PROJECT)}}}{./pic/earth.png} \\
     
-    \cvpython{2020}{Projet de MathPy}{Python 3.7}{Calculatrice Scientifique Moderne \color{cvorange}}{\href{https://www.github.com/DeepEastWind/MathPy}{\icon{\faGithub}{cvpurple}{}github.com/DeepEastWind/MathPy (PROJET PRIVÉ)}}{./pic/MathPy.png} \\
+    \cvpython{2020}{Projet de MathPy}{Python 3.7}{Calculatrice Scientifique Moderne \color{cvyellow}}{\href{https://www.github.com/DeepEastWind/MathPy}{\icon{\faGithub}{cvpurple}{}\textcolor{black!70}{github.com/DeepEastWind/MathPy (PRIVATE PROJECT)}}}{./pic/MathPy.png} \\
     
-    \cvproject{2018}{Projet de Fin d'Études}{UHIIC}{Faculté des Sciences Ben M'sick \color{cvorange}}{Conception d'un système photovoltaïque et réalisation d'un suiveur solaire}{./pic/univh2fsbm.png} \\
+    \cvproject{2018}{Projet de Fin d'Études}{UHIIC}{Faculté des Sciences Ben M'sick \color{cvyellow}}{Conception d'un système photovoltaïque et réalisation d'un suiveur solaire}{./pic/univh2fsbm.png} \\
     
     % \cvdegree{2018}{Projet Entreprenariat}{UHIIC}{Faculté des Sciences Ben M'sick \color{cvorange}}{Projet de Création une Entreprise Commerciale "electrocherry".}{./pic/electro.png}
 \end{tabular}
@@ -204,13 +206,13 @@ Je suis toujours à la recherche de nouveaux projets interdisciplinaires passion
 \begin{minipage}[t]{0.3\textwidth}
 \vspace{1em}
 \section*{Info et Program}
-\textcolor{iconcolour}{Actuellement, je développe des applications en temps réel avec Python, et crée une interface graphique avec tkinter, et extrait du script `file.py` un fichier exécutable par pyinstaller en utilisant auto py to exe.}
+\textcolor{black}{Actuellement, je développe des applications en temps réel avec Python, et crée une interface graphique avec tkinter, et extrait du script `file.py` un fichier exécutable par pyinstaller en utilisant auto py to exe.}
 
 \end{minipage}\hfill
 \begin{minipage}[t]{0.3\textwidth}
 \vspace{1em}
 \section*{Programmes Logiciels}
-\textcolor{iconcolour}{J'utilise régulièrement pour mes projets de développement PyCharm Community et Visual Studio comme IDE, et j'utilise pour la capture schématique et la simulation Proteus CAD.}
+\textcolor{black}{J'utilise régulièrement pour mes projets de développement PyCharm Community et Visual Studio comme IDE, et j'utilise pour la capture schématique et la simulation Proteus CAD.}
 
 \end{minipage}
 
@@ -220,18 +222,19 @@ Je suis toujours à la recherche de nouveaux projets interdisciplinaires passion
 % usage \hobbyicon{<fontawesome icon}{Text}{background color of circle}{size of icon}{space text below icon}
 \mbox{
 	\parbox[b][2cm][c]{7.5cm}{
-		\hobbyicon{\color{cvyellow}\faPlayCircle}{Tutoriels \\}{headerblue}{\iconsize}{2em}
+		\hobbyicon{\color{iconcolour}\faPlayCircle}{Tutoriels \\}{cvyellow}{\iconsize}{2em}
 		% \hspace{1em}
-		\hobbyicon{\color{labelcolour}\faNewspaper}{Actualités \\Technologies}{cvpurple}{\iconsize}{2em} % \hfill
+		\hobbyicon{\color{iconcolour}\faNewspaper}{Actualités \\Technologies}{cvred}{\iconsize}{2em} % \hfill
 		% \hspace{1em}
-		\hobbyicon{\color{labelcolour}\faChess}{Jeux \\Cérébrale}{orange}{\iconsize}{2em}
+		\hobbyicon{\color{iconcolour}\faChess}{Jeux \\Cérébrale}{cvgreen}{\iconsize}{2em}
 		\hspace{1em}
 		\hobbyicon{\color{iconcolour}\faBicycle}{Sport \\}{cvorange}{\iconsize}{2em}
 		% \hspace{1em}
 		% \hobbyicon{\color{iconcolour}\faBicycle}{Fitness\\ \& GYM}{pink}{\iconsize}{2em}\\
 		}
+
 	\parbox[b][2.4cm][c]{4.7cm}{
-			\textcolor{iconcolour}{Parmis les dominantes activités que je pratique est de naviguer sur internet à la recherche de nouvelles sur le monde d'informatique et  entraîné sur tous les tutoriels qui m'intéresse.}
+			\textcolor{black}{Parmis les dominantes activités que je pratique est de naviguer sur internet à la recherche de nouvelles sur le monde d'informatique et  entraîné sur tous les tutoriels qui m'intéresse.}
 		}
 	}
 %\hobbyicon{\color{iconcolour}\faFutbol}{Playing}{red}{\iconsize}{2em}
@@ -253,7 +256,7 @@ Je suis toujours à la recherche de nouveaux projets interdisciplinaires passion
 \setlength{\parindent}{0pt}
 \begin{minipage}[t]{\rightcolwidth}
 \begin{center}\fontfamily{\sfdefault}\selectfont \color{black!70}
-{\href{callto:+212622902221}{\icon{\faMobile}{black}{} +212 6 22 90 22 21} \href{mailto:najmi.achraf@gmail.com}{\icon{\faAt}{red}{} najmi.achraf@gmail.com} \href{https://www.github.com/DeepEastWind}{\icon{\faGithub}{cvpurple}{} github.com/DeepEastWind}  \newline\href{https://www.linkedin.com/in/achraf-d-najmi}{\icon{\faLinkedin}{blue}{} linkedin.com/in/achraf-d-najmi}\href{https://stackoverflow.com/users/12854948}{\icon{\faStackOverflow}{iconcolour}{} stackoverflow.com/users/12854948}
+{\href{callto:+212622902221}{\icon{\faMobile}{black}{} \textcolor{black!70}{+212 6 22 90 22 21}} \href{mailto:najmi.achraf@gmail.com}{\icon{\faAt}{red}{} \textcolor{black!70}{najmi.achraf@gmail.com}} \href{https://www.github.com/DeepEastWind}{\icon{\faGithub}{cvpurple}{} \textcolor{black!70}{github.com/DeepEastWind}}  \newline\href{https://www.linkedin.com/in/achraf-d-najmi}{\icon{\faLinkedin}{blue}{} \textcolor{black!70}{linkedin.com/in/achraf-d-najmi}}\href{https://stackoverflow.com/users/12854948}{\icon{\faStackOverflow}{black}{} \textcolor{black!70}{stackoverflow.com/users/12854948}}
 }
 \end{center}\vspace{-2em}
 \end{minipage}

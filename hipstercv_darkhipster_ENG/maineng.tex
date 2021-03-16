@@ -1,5 +1,5 @@
-\documentclass[darkhipster]{hipstercv}
-% available options are: darkhipster, lighthipster, pastel, allblack, grey, verylight
+\documentclass[python]{hipstercv}
+% available options are: python, darkhipster, lighthipster, pastel, allblack, grey, verylight
 \usepackage[utf8]{inputenc}
 \usepackage[default]{raleway}
 \usepackage[margin=1cm, a4paper]{geometry}
@@ -40,7 +40,7 @@
 \section*{Start}
 
 
-\header{\bgupper{cvyellow}{headerfontbox}{\bfseries\Huge Achraf Najmi}}{\bg{cvyellow}{headerfontbox}{\large Electro Info Physicist}}{\bg{cvyellow}{headerfontbox}{\small 
+\header{\bgupper{headerfontbox}{headerfontboxfont}{\bfseries\Huge Achraf Najmi}}{\bg{headerfontbox}{headerfontboxfont}{\large Electro Info Physicist}}{\bg{headerfontbox}{headerfontboxfont}{\small 
 \begin{minipage}[t]{0.65\textwidth}
 I am a graduate in Physics Electronic with working experience in research projects. \\
 I am always looking for exciting new interdisciplinary projects related to physics
@@ -106,7 +106,8 @@ I am always looking for exciting new interdisciplinary projects related to physi
 
 \bg{cvyellow}{iconcolour}{IT \& Programming}\\
 
-\bubblediagram{{\icon{\faPython}{headerblue}{\Large} \\ \textbf{\color{headerblue}{Python 3}}}, \faFileCode \hspace{0.1em} pyinstaller, \faSuperscript \hspace{0.1em} sympy, \faSortNumericDown \hspace{0.1em} numpy, \faTable \hspace{0.1em} pandas, \faFeather \hspace{0.1em} tkinter, \faChartLine \hspace{0.1em} matplotlib}
+\bubblediagram{{\icon{\faPython}{bgdiagram}{\Large} \\ \textbf{\color{bgdiagram}{Python 3}}}, \faFileCode \hspace{0.1em} pyinstaller, \faSuperscript \hspace{0.1em} sympy, \faSortNumericDown \hspace{0.1em} numpy, \faTable \hspace{0.1em} pandas, \faFeather \hspace{0.1em} tkinter, \faChartLine \hspace{0.1em} matplotlib}
+
 
 % \bigskip
 \smallskip
@@ -129,13 +130,13 @@ I am always looking for exciting new interdisciplinary projects related to physi
 
 \begin{minipage}[t]{0.3\textwidth}
 \begin{tabular}{r @{\hspace{0.5em}}l}
-     \bg{skilllabelcolour}{iconcolour}{PyCharm IDE} & \barrule{0.4}{0.5em}{cvgreen} \\
-     % \bg{skilllabelcolour}{iconcolour}{Microsoft Office} & \barrule{0.45}{0.5em}{orange} \\
-     \bg{skilllabelcolour}{iconcolour}{Visual Studio IDE} & \barrule{0.35}{0.5em}{cvpurple}\\
-     \bg{skilllabelcolour}{iconcolour}{Proteus CAD} & \barrule{0.3}{0.5em}{cvblue} \\
-     \bg{skilllabelcolour}{iconcolour}{\faMarkdown \hspace{0.1em} Markdown} & \barrule{0.25}{0.5em}{orange} \\
-     \bg{skilllabelcolour}{iconcolour}{\LaTeX} & \barrule{0.2}{0.5em}{cvyellow} \\
-     \bg{skilllabelcolour}{iconcolour}{\faCodeBranch \hspace{0.1em} \faGit} & \barrule{0.15}{0.5em}{red} \\
+     \bg{skilllabelcolour}{iconcolour}{PyCharm IDE} & \barrule{0.4}{0.5em}{materialgreen} \\
+     % \bg{skilllabelcolour}{iconcolour}{Microsoft Office} & \barrule{0.4}{0.5em}{materialamber} \\
+     \bg{skilllabelcolour}{iconcolour}{Visual Studio IDE} & \barrule{0.35}{0.5em}{materialindigo}\\
+     \bg{skilllabelcolour}{iconcolour}{Proteus CAD} & \barrule{0.3}{0.5em}{materialcyan} \\
+     \bg{skilllabelcolour}{iconcolour}{\faMarkdown \hspace{0.1em} Markdown} & \barrule{0.25}{0.5em}{materialorange} \\
+     \bg{skilllabelcolour}{iconcolour}{\LaTeX} & \barrule{0.2}{0.5em}{materiallime} \\
+     \bg{skilllabelcolour}{iconcolour}{\faCodeBranch \hspace{0.1em} \faGit} & \barrule{0.15}{0.5em}{materialteal} \\
 \end{tabular}
 
 
@@ -146,31 +147,31 @@ I am always looking for exciting new interdisciplinary projects related to physi
 \bg{cvyellow}{iconcolour}{Technologies}\\
 %\parbox[b][110pt][c]{0.30\textwidth}{
 % PIE CHART	
-\begin{piechart}{360}{1}{darkgray}{iconcolour}{skilllabelcolour}
-			\slice{33}{Development}{headerblue}
-			\slice{28}{Maintenance}{cvyellow}
-			\slice{23}{Schematization}{orange}
-			\slice{18}{Design}{cvpurple}
+\begin{piechart}{360}{1}{bgchart}{iconcolour}{skilllabelcolour}
+			\slice{33}{Development}{cvyellow}
+			\slice{28}{Maintenance}{cvred}
+			\slice{23}{Schematization}{headerblue}
+			\slice{18}{Design}{cvorange}
 \end{piechart}\vspace{-4em}
-%}
+}
 \phantom{turn the page}
 
 \phantom{turn the page}
-}
+% }
 %-----------------------------------------------------------
 \switchcolumn
 
 \small
 \vspace{-2em}
 \section*{Short Resume}
-\begin{timelinehorizontal}{2017}{2022}{11}{black!70}
+\begin{timelinehorizontal}{2017}{2022}{11}{timelinecolour}
 	
-			\cvevent{2/2017}{9/2018}{Computer Maintenance}{1}{-4.5}{headerblue}{white}{-1.1}
+			\cvevent{2/2017}{9/2018}{Computer Maintenance}{1}{-4.5}{headerblue}{iconcolour}{-1}
 	
-			\cvevent{9/2017}{6/2019}{Bachelor studies : Physics Electronic}{1.6}{-7}{cvyellow}{headerfontbox}{-1}
+			\cvevent{9/2017}{6/2019}{Bachelor studies : Physics Electronic}{1.6}{-7}{cvyellow}{iconcolour}{-0.9}
 			
-			\cvevent{9/2019}{3/2021}{IT Development : \hspace{0.1em} \faPython \hspace{0.1em} Python 3 : Syntax, GUI, Data Science}{2.2}{-5.5}{headerblue}{white}{-0.9}
-	
+			\cvevent{9/2019}{3/2021}{IT Development : \hspace{0.1em} \faPython \hspace{0.1em} Python 3 : Syntax, GUI, Data Science}{2.2}{-5.5}{cvyellow}{iconcolour}{-0.9}
+			
 \end{timelinehorizontal}
 		
 % \vspace{-1em}
@@ -179,7 +180,7 @@ I am always looking for exciting new interdisciplinary projects related to physi
 \section*{Degrees And Certifications}
 \begin{tabular}{r| p{0.45\textwidth} c}
 
-    \cvcertpy{2021}{Developer Certification \color{cvred}}{Scientific Computing with Python}{freeCodeCamp \color{headerblue}}{\href{https://freecodecamp.org/certification/deepeastwind/scientific-computing-with-python-v7}{\textcolor{black!70}{\faFreeCodeCamp} \hspace{1pt} freecodecamp.org/certification/deepeastwind/scientific-computing-with-python-v7}}{./pic/python.png} \\
+    \cvcertpy{2021}{Developer Certification \color{cvred}}{Scientific Computing with Python}{freeCodeCamp \color{headerblue}}{\href{https://freecodecamp.org/certification/deepeastwind/scientific-computing-with-python-v7}{\textcolor{black!70}{\faFreeCodeCamp} \hspace{1pt} \textcolor{black!70}{freecodecamp.org/certification/deepeastwind/scientific-computing-with-python-v7}}}{./pic/python.png} \\
 
     \cvdegree{2019}{Bachelor of General Studies (BGS) \color{cvred}}{University Hassan II of Casablanca}{FSBM \color{headerblue}}{Series : Matter Science Physics | Course : Electronic}{./pic/univh2fsbm.png} \\
     
@@ -193,11 +194,11 @@ I am always looking for exciting new interdisciplinary projects related to physi
 \section*{Projects}
 \begin{tabular}{r| p{0.45\textwidth} c}
 
-	\cvpython{2021}{Project Hydrogéologie}{Python 3.7}{Groundwater Hydrology \color{cvorange}}{\href{https://github.com/DeepEastWind/Hydrogeologie}{\icon{\faGithub}{cvpurple}{}github.com/DeepEastWind/Hydrogeologie (PRIVATE PROJECT)}}{./pic/earth.png} \\
+	\cvpython{2021}{Project Hydrogéologie}{Python 3.7}{Groundwater Hydrology \color{cvyellow}}{\href{https://github.com/DeepEastWind/Hydrogeologie}{\icon{\faGithub}{cvpurple}{}\textcolor{black!70}{github.com/DeepEastWind/Hydrogeologie (PRIVATE PROJECT)}}}{./pic/earth.png} \\
 
-    \cvpython{2020}{Project MathPy}{Python 3.7}{Modern Scientific Calculator \color{cvorange}}{\href{https://www.github.com/DeepEastWind/MathPy}{\icon{\faGithub}{cvpurple}{}github.com/DeepEastWind/MathPy (PRIVATE PROJECT)}}{./pic/MathPy.png} \\
+    \cvpython{2020}{Project MathPy}{Python 3.7}{Modern Scientific Calculator \color{cvyellow}}{\href{https://www.github.com/DeepEastWind/MathPy}{\icon{\faGithub}{cvpurple}{}\textcolor{black!70}{github.com/DeepEastWind/MathPy (PRIVATE PROJECT)}}}{./pic/MathPy.png} \\
     
-    \cvproject{2018}{Project Graduation}{UHIIC}{Faculty of Science Ben M'sick \color{cvorange}}{Design of a photovoltaic system and realization of a solar tracker}{./pic/univh2fsbm.png} \\
+    \cvproject{2018}{Project Graduation}{UHIIC}{Faculty of Science Ben M'sick \color{cvyellow}}{Design of a photovoltaic system and realization of a solar tracker}{./pic/univh2fsbm.png} \\
     
     % \cvproject{2018}{Project Entrepreneurship}{UHIIC}{Faculty of Science Ben M'sick \color{cvorange}}{Commercial Enterprise Creation Project "electrocherry"}{./pic/electro.png}
 \end{tabular}
@@ -205,12 +206,12 @@ I am always looking for exciting new interdisciplinary projects related to physi
 \begin{minipage}[t]{0.3\textwidth}
 \vspace{1em}
 \section*{IT \& Programming}
-\textcolor{iconcolour}{Currently, I am developing realtime applications with Python, and creating a GUI with tkinter, and extracting from the script `file.py` an executable file by pyinstaller using auto py to exe.}
+\textcolor{black}{Currently, I am developing realtime applications with Python, and creating a GUI with tkinter, and extracting from the script `file.py` an executable file by pyinstaller using auto py to exe.}
 \end{minipage}\hfill
 \begin{minipage}[t]{0.3\textwidth}
 \vspace{1em}
 \section*{Software Programs}
-\textcolor{iconcolour}{I regularly use for my development projects PyCharm Community and Visual Studio as IDE, and I use for schematic capture and simulation Proteus CAD.}
+\textcolor{black}{I regularly use for my development projects PyCharm Community and Visual Studio as IDE, and I use for schematic capture and simulation Proteus CAD.}
 
 \end{minipage}
 
@@ -220,17 +221,18 @@ I am always looking for exciting new interdisciplinary projects related to physi
 % usage \hobbyicon{<fontawesome icon}{Text}{background color of circle}{size of icon}{space text below icon}
 \mbox{
 	\parbox[b][2cm][c]{7cm}{
-		\hobbyicon{\color{cvyellow}\faPlayCircle}{Tutorials \\}{headerblue}{\iconsize}{2em}
+		\hobbyicon{\color{iconcolour}\faPlayCircle}{Tutorials \\}{cvyellow}{\iconsize}{2em}
 		% \hspace{1em}
-		\hobbyicon{\color{labelcolour}\faNewspaper}{Technology \\News}{cvpurple}{\iconsize}{2em} % \hfill
+		\hobbyicon{\color{iconcolour}\faNewspaper}{Technology \\News}{cvred}{\iconsize}{2em} % \hfill
 		% \hspace{1em}
-		\hobbyicon{\color{labelcolour}\faChess}{Brain \\Games}{orange}{\iconsize}{2em}
+		\hobbyicon{\color{iconcolour}\faChess}{Brain \\Games}{cvgreen}{\iconsize}{2em}
 		\hspace{1em}
 		\hobbyicon{\color{iconcolour}\faBicycle}{Sport \\}{cvorange}{\iconsize}{2em}
 		% \hobbyicon{\color{iconcolour}\faBicycle}{Fitness\\ \& GYM}{pink}{\iconsize}{2em}\\
 		}
+		
 	\parbox[b][2.2cm][c]{5cm}{
-			\textcolor{iconcolour}{Among the dominant activities that I practice is to browse the internet in search of news on the computer world and trained on all the tutorials that interests me.}
+			\textcolor{black}{Among the dominant activities that I practice is to browse the internet in search of news on the computer world and trained on all the tutorials that interests me.}
 		}
 	}
 %\hobbyicon{\color{iconcolour}\faFutbol}{Playing}{red}{\iconsize}{2em}
@@ -252,7 +254,7 @@ I am always looking for exciting new interdisciplinary projects related to physi
 \setlength{\parindent}{0pt}
 \begin{minipage}[t]{\rightcolwidth}
 \begin{center}\fontfamily{\sfdefault}\selectfont \color{black!70}
-{\href{callto:+212622902221}{\icon{\faMobile}{black}{} +212 6 22 90 22 21} \href{mailto:najmi.achraf@gmail.com}{\icon{\faAt}{red}{} najmi.achraf@gmail.com} \href{https://www.github.com/DeepEastWind}{\icon{\faGithub}{cvpurple}{} github.com/DeepEastWind} \newline\href{https://www.linkedin.com/in/achraf-d-najmi}{\icon{\faLinkedin}{blue}{} linkedin.com/in/achraf-d-najmi}\href{https://stackoverflow.com/users/12854948}{\icon{\faStackOverflow}{iconcolour}{} stackoverflow.com/users/12854948}
+{\href{callto:+212622902221}{\icon{\faMobile}{black}{} \textcolor{black!70}{+212 6 22 90 22 21}} \href{mailto:najmi.achraf@gmail.com}{\icon{\faAt}{red}{} \textcolor{black!70}{najmi.achraf@gmail.com}} \href{https://www.github.com/DeepEastWind}{\icon{\faGithub}{cvpurple}{} \textcolor{black!70}{github.com/DeepEastWind}} \newline\href{https://www.linkedin.com/in/achraf-d-najmi}{\icon{\faLinkedin}{blue}{} \textcolor{black!70}{linkedin.com/in/achraf-d-najmi}}\href{https://stackoverflow.com/users/12854948}{\icon{\faStackOverflow}{black}{} \textcolor{black!70}{stackoverflow.com/users/12854948}}
 }
 \end{center}\vspace{-2em}
 \end{minipage}
