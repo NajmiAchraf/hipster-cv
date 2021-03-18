@@ -73,3 +73,14 @@
 	\begin{tikzpicture}
 }
 {\end{tikzpicture}}
+
+% --------------------------------------------------------------------------------
+
+\newcommand{\progressarc}[8]{
+\begin{tikzpicture}
+\draw [line width=#1,#4] (0,#3)  arc[start angle=90,radius=#3,delta angle=-3.60*100];  % von Prozent zu Kreiswerten
+\draw [line width=#1,#2] (0,#3)  arc[start angle=90,radius=#3,delta angle=-3.60*#8];  % von Prozent zu Kreiswerten
+\node[] at (0,0) {#5};
+\node[#7=#3+#1,align=center] at (0,0) {#6};
+\end{tikzpicture}
+}
