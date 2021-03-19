@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.3) (preloaded format=pdflatex 2021.3.15)  18 MAR 2021 14:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.3) (preloaded format=pdflatex 2021.3.15)  19 MAR 2021 15:14
 entering extended mode
 **./mainfr.tex
 (mainfr.tex
@@ -1125,7 +1125,6 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 33.
 LaTeX Info: Redefining \pageref on input line 33.
 LaTeX Info: Redefining \nameref on input line 33.
- (mainfr.out) (mainfr.out)
 \@outlinefile=\write4
 \openout4 = `mainfr.out'.
 
@@ -1402,13 +1401,19 @@ Overfull \hbox (2.84348pt too wide) in paragraph at lines 253--259
 {C:/Users/ACHRAF/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./pic/me.J
 PG> <./pic/python.png> <./pic/univh2fsbm.png> <./pic/earth.png> <./pic/MathPy.p
 ng>] (mainfr.aux)
-Package rerunfilecheck Info: File `mainfr.out' has not changed.
-(rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
+
+Package rerunfilecheck Warning: File `mainfr.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `mainfr.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 29520 strings out of 479334
- 608893 string characters out of 2854673
- 945962 words of memory out of 3000000
+ 29516 strings out of 479334
+ 608725 string characters out of 2854673
+ 945914 words of memory out of 3000000
  46409 multiletter control sequences out of 15000+200000
  647983 words of font info for 82 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1429,7 +1434,7 @@ F/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/fontawesome5/FontAwesome
 impallari/raleway/Raleway-Bold.pfb><C:/Users/ACHRAF/AppData/Local/Programs/MiKT
 eX 2.9/fonts/type1/impallari/raleway/Raleway-Regular.pfb><C:/Users/ACHRAF/AppDa
 ta/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
-Output written on mainfr.pdf (1 page, 686810 bytes).
+Output written on mainfr.pdf (1 page, 686797 bytes).
 PDF statistics:
  98 PDF objects out of 1000 (max. 8388607)
  2 named destinations out of 1000 (max. 500000)
