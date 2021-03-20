@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.3) (preloaded format=pdflatex 2021.3.15)  18 MAR 2021 14:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.3) (preloaded format=pdflatex 2021.3.15)  20 MAR 2021 15:29
 entering extended mode
 **./maineng.tex
 (maineng.tex
@@ -1413,11 +1413,11 @@ Package rerunfilecheck Info: File `maineng.out' has not changed.
 Here is how much of TeX's memory you used:
  29520 strings out of 479334
  608920 string characters out of 2854673
- 944519 words of memory out of 3000000
+ 944557 words of memory out of 3000000
  46409 multiletter control sequences out of 15000+200000
  647983 words of font info for 82 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 142i,12n,144p,647b,1110s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 142i,12n,144p,651b,1110s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/ACHRAF/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/fontawesom
 e5/fa5brands0.enc}{C:/Users/ACHRAF/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/
 dvips/fontawesome5/fa5free3.enc}{C:/Users/ACHRAF/AppData/Local/Programs/MiKTeX 
@@ -1434,7 +1434,7 @@ F/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/fontawesome5/FontAwesome
 impallari/raleway/Raleway-Bold.pfb><C:/Users/ACHRAF/AppData/Local/Programs/MiKT
 eX 2.9/fonts/type1/impallari/raleway/Raleway-Regular.pfb><C:/Users/ACHRAF/AppDa
 ta/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
-Output written on maineng.pdf (1 page, 684154 bytes).
+Output written on maineng.pdf (1 page, 684141 bytes).
 PDF statistics:
  98 PDF objects out of 1000 (max. 8388607)
  2 named destinations out of 1000 (max. 500000)

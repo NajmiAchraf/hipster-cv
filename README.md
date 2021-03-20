@@ -1,14 +1,13 @@
 # hipster-cv
 Repo to share the template for the Hipster-CV.
 
-*Image credits for the example images goes to Disney!*
-These images are in the CV just for demonstration.
+*These images are in the CV are pesonal.*
 Please replace them with your own photos and logos if you use this template!
 
 
 
 # Previews
-### CV ENGLISH
+### Hipster-CV ENGLISH
 
 <table width="100%" margin-left="auto" margin-right="auto">
   <tr>
@@ -78,7 +77,7 @@ Please replace them with your own photos and logos if you use this template!
   </tr>
 </table>
 
-### CV FRANÇAIS
+### Hipster-CV FRANÇAIS
 
 <table width="100%" margin-left="auto" margin-right="auto">
   <tr>
