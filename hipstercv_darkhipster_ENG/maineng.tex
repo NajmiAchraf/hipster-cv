@@ -77,7 +77,10 @@ I am always looking for exciting new interdisciplinary projects related to physi
 \faMapMarker & Location & Casablanca, Morocco \\
 \end{tabular}
 
-\bigskip
+% \bigskip
+\smallskip
+
+\bgupper{cvyellow}{iconcolour}{Specialty} \\
 \bg{cvyellow}{iconcolour}{Physics Electronic} \\
 
 \begin{tabular}{l | l}
@@ -86,12 +89,21 @@ I am always looking for exciting new interdisciplinary projects related to physi
 \faSitemap  \hspace{0.1em} Network
 \end{tabular}
 
-\bigskip
+% \bigskip
+\smallskip
 
 \bgupper{cvyellow}{iconcolour}{Skills} \\
-\bg{cvyellow}{iconcolour}{Languages}
-\bigskip
+\bg{cvyellow}{iconcolour}{Skills Domains}\\
 
+% PIE CHART	
+\begin{piechart}{360}{1}{bgchart}{iconcolour}{skilllabelcolour}\hspace{-1em}
+	\slice{33}{Development}{cvyellow}
+	\slice{27}{Maintenance}{cvred}
+	\slice{23}{Schematization}{headerblue}
+	\slice{17}{Design}{cvorange}
+\end{piechart}
+
+\bg{cvyellow}{iconcolour}{Languages} \\
 
 \begin{minipage}[t]{\leftcolwidth}
 \begin{tabular}{ll | l}
@@ -101,30 +113,25 @@ I am always looking for exciting new interdisciplinary projects related to physi
 \end{tabular}
 \end{minipage}
 
-\bigskip
-% \smallskip
+% \bigskip
+\smallskip
 
-\bg{cvyellow}{iconcolour}{IT \& Programming}\\
+\bgupper{cvyellow}{iconcolour}{IT} \\
+\bg{cvyellow}{iconcolour}{Programming Language} \\
 
-\bubblediagram{{\icon{\faPython}{fontdiagram}{\Large} \\ \textbf{\color{fontdiagram}{Python 3}}}, \faFileCode \hspace{0.1em} pyinstaller, \faSuperscript \hspace{0.1em} sympy, \faSortNumericDown \hspace{0.1em} numpy, \faTable \hspace{0.1em} pandas, \faFeather \hspace{0.1em} tkinter, \faChartLine \hspace{0.1em} matplotlib}
-
+\bubblediagram{{\icon{\faPython}{fontdiagram}{\LARGE} \\ \textbf{\color{fontdiagram}{Python 3}}}, \large \faFileCode \\ pyinstaller, \large \faSuperscript \\ sympy, \large \faChartLine \\ matplotlib, \large \faSortNumericDown \\ numpy, \large \faFeather \\ tkinter, \large \faTable \\ pandas}
 
 % \bigskip
 \smallskip
 
 \bg{cvyellow}{iconcolour}{Environment}\\
 
-\color{labelcolour}{Syntax:}
-% \hspace{0.2em} 
-\icon{\faPython}{labelcolour}{\Large} 
-\color{labelcolour}{3.7 \& 3.8 \hspace{1.3em} OS:}
-% \hspace{0.3em} 
-\icon{\faWindows}{labelcolour}{\Large} 
-% \hspace{0.3em} 
-\icon{\faLinux}{labelcolour}{\Large} 
+\begin{tabular}{l @{\hspace{0.2em}} l @{\hspace{0.1em}} l | @{\hspace{0.5em}} | r @{\hspace{0.3em}} r @{\hspace{0.3em}} r}
+\color{labelcolour}{Syntax:} & \icon{\faPython}{labelcolour}{\Large} & \color{labelcolour}{3.7 \& 3.8} &  \color{labelcolour}{OS:} & \icon{\faWindows}{labelcolour}{\Large} & \icon{\faLinux}{labelcolour}{\Large} 
+\end{tabular}
 
-\bigskip
-% \smallskip
+% \bigskip
+\smallskip
 
 \bg{cvyellow}{iconcolour}{Software Programs} \\
 
@@ -138,26 +145,15 @@ I am always looking for exciting new interdisciplinary projects related to physi
      \bg{skilllabelcolour}{iconcolour}{\LaTeX} & \barrule{0.2}{0.5em}{materiallime} \\
      \bg{skilllabelcolour}{iconcolour}{\faCodeBranch \hspace{0.1em} \faGit} & \barrule{0.15}{0.5em}{materialteal} \\
 \end{tabular}
-
-
 %\dashrule{}{}
+\vspace{-2.5em}
 \end{minipage}
 
-\smallskip
-\bg{cvyellow}{iconcolour}{Technologies}\\
-%\parbox[b][110pt][c]{0.30\textwidth}{
-% PIE CHART	
-\begin{piechart}{360}{1}{bgchart}{iconcolour}{skilllabelcolour}
-			\slice{33}{Development}{cvyellow}
-			\slice{28}{Maintenance}{cvred}
-			\slice{23}{Schematization}{headerblue}
-			\slice{18}{Design}{cvorange}
-\end{piechart}\vspace{-4em}
 }
 \phantom{turn the page}
 
 \phantom{turn the page}
-% }
+
 %-----------------------------------------------------------
 \switchcolumn
 
@@ -205,12 +201,12 @@ I am always looking for exciting new interdisciplinary projects related to physi
 
 \begin{minipage}[t]{0.3\textwidth}
 \vspace{1em}
-\section*{IT \& Programming}
+\section*{Programming}
 \textcolor{black}{Currently, I am developing realtime applications with Python, and creating a GUI with tkinter, and extracting from the script `file.py` an executable file by pyinstaller using auto py to exe.}
 \end{minipage}\hfill
 \begin{minipage}[t]{0.3\textwidth}
 \vspace{1em}
-\section*{Software Programs}
+\section*{Software}
 \textcolor{black}{I regularly use for my development projects PyCharm Community and Visual Studio as IDE, and I use for schematic capture and simulation Proteus CAD.}
 
 \end{minipage}

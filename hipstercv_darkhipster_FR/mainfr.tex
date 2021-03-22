@@ -77,8 +77,10 @@ Je suis toujours à la recherche de nouveaux projets interdisciplinaires passion
 \faMapMarker & Emplacement & Casablanca, Maroc \\
 \end{tabular}
 
-\bigskip
+% \bigskip
+\smallskip
 
+\bgupper{cvyellow}{iconcolour}{Specialite} \\
 \bg{cvyellow}{iconcolour}{Physique Électronique} \\
 
 \begin{tabular}{l | l}
@@ -87,12 +89,24 @@ Je suis toujours à la recherche de nouveaux projets interdisciplinaires passion
 \faSitemap  \hspace{0.1em} Réseau
 \end{tabular}
 
-\bigskip
+% \bigskip
+\smallskip
 
-\bgupper{cvyellow}{iconcolour}{Capacites} \\
-\bg{cvyellow}{iconcolour}{Langues}
-\bigskip
+\bgupper{cvyellow}{iconcolour}{Competences} \\
+\bg{cvyellow}{iconcolour}{Domaines de Compétences}\\
 
+% PIE CHART	
+\begin{piechart}{360}{1}{bgchart}{iconcolour}{skilllabelcolour} \hspace{-1.5em}
+	\slice{33}{Développement}{cvyellow}
+	\slice{27}{Maintenance}{cvred}
+	\slice{23}{Schématisation}{headerblue}
+	\slice{17}{Désigne}{cvorange}
+\end{piechart}
+
+% \bigskip
+\smallskip
+
+\bg{cvyellow}{iconcolour}{Langues} \\
 
 \begin{minipage}[t]{\leftcolwidth}
 \begin{tabular}{ll | l}
@@ -101,11 +115,13 @@ Je suis toujours à la recherche de nouveaux projets interdisciplinaires passion
 \end{tabular}
 \end{minipage}
 
-\bigskip
+% \bigskip
+\smallskip
 
-\bg{cvyellow}{iconcolour}{Informatique et Programmation}\\
+\bgupper{cvyellow}{iconcolour}{Informatique} \\
+\bg{cvyellow}{iconcolour}{Langage de Programmation} \\
 
-\bubblediagram{{\icon{\faPython}{fontdiagram}{\Large} \\ \textbf{\color{fontdiagram}{Python 3}}}, \faFileCode \hspace{0.1em} pyinstaller, \faSuperscript \hspace{0.1em} sympy, \faSortNumericDown \hspace{0.1em} numpy, \faTable \hspace{0.1em} pandas, \faFeather \hspace{0.1em} tkinter, \faChartLine \hspace{0.1em} matplotlib}
+\bubblediagram{{\icon{\faPython}{fontdiagram}{\LARGE} \\ \textbf{\color{fontdiagram}{Python 3}}}, \large \faFileCode \\ pyinstaller, \large \faSuperscript \\ sympy, \large \faChartLine \\ matplotlib, \large \faSortNumericDown \\ numpy, \large \faFeather \\ tkinter, \large \faTable \\ pandas}
 
 
 % \bigskip
@@ -113,17 +129,12 @@ Je suis toujours à la recherche de nouveaux projets interdisciplinaires passion
 
 \bg{cvyellow}{iconcolour}{Environnement}\\
 
-\color{labelcolour}{Syntaxe:}
-% \hspace{0.2em} 
-\icon{\faPython}{labelcolour}{\Large} 
-\color{labelcolour}{3.7 \& 3.8 \hspace{0.7em} OS:}
-% \hspace{0.3em} 
-\icon{\faWindows}{labelcolour}{\Large} 
-% \hspace{0.3em} 
-\icon{\faLinux}{labelcolour}{\Large} 
+\begin{tabular}{l @{\hspace{0.2em}} l @{\hspace{0.1em}} l | @{\hspace{0.5em}} | r @{\hspace{0.3em}} r @{\hspace{0.3em}} r}
+\color{labelcolour}{Syntaxe:} & \icon{\faPython}{labelcolour}{\Large} & \color{labelcolour}{3.7 \& 3.8} &  \color{labelcolour}{OS:} & \icon{\faWindows}{labelcolour}{\Large} & \icon{\faLinux}{labelcolour}{\Large} 
+\end{tabular}
 
-\bigskip
-% \smallskip
+% \bigskip
+\smallskip
 
 \bg{cvyellow}{iconcolour}{Programmes Logiciels} \\
 
@@ -136,28 +147,15 @@ Je suis toujours à la recherche de nouveaux projets interdisciplinaires passion
      \bg{skilllabelcolour}{iconcolour}{\faMarkdown \hspace{0.1em} Markdown} & \barrule{0.25}{0.5em}{materialorange} \\
      \bg{skilllabelcolour}{iconcolour}{\LaTeX} & \barrule{0.2}{0.5em}{materiallime} \\
      \bg{skilllabelcolour}{iconcolour}{\faCodeBranch \hspace{0.1em} \faGit} & \barrule{0.15}{0.5em}{materialteal} \\
-    
 \end{tabular}
-
-
 % \dashrule{}{}
+\vspace{-3em}
 \end{minipage}
 
-\smallskip
-\bg{cvyellow}{iconcolour}{Technologies}\\
-% \parbox[b][110pt][c]{0.30\textwidth}{
-% PIE CHART	
-\begin{piechart}{360}{1}{bgchart}{iconcolour}{skilllabelcolour}
-			\slice{33}{Développement}{cvyellow}
-			\slice{28}{Maintenance}{cvred}
-			\slice{23}{Schématisation}{headerblue}
-			\slice{18}{Désigne}{cvorange}
-\end{piechart}\vspace{-4em}
-}
 \phantom{turn the page}
 
 \phantom{turn the page}
-% }
+}
 %-----------------------------------------------------------
 
 \switchcolumn
@@ -205,13 +203,13 @@ Je suis toujours à la recherche de nouveaux projets interdisciplinaires passion
 
 \begin{minipage}[t]{0.3\textwidth}
 \vspace{1em}
-\section*{Info et Program}
+\section*{Programmation}
 \textcolor{black}{Actuellement, je développe des applications en temps réel avec Python, et crée une interface graphique avec tkinter, et extrait du script `file.py` un fichier exécutable par pyinstaller en utilisant auto py to exe.}
 
 \end{minipage}\hfill
 \begin{minipage}[t]{0.3\textwidth}
 \vspace{1em}
-\section*{Programmes Logiciels}
+\section*{Logiciels}
 \textcolor{black}{J'utilise régulièrement pour mes projets de développement PyCharm Community et Visual Studio comme IDE, et j'utilise pour la capture schématique et la simulation Proteus CAD.}
 
 \end{minipage}
