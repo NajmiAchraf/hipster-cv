@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.3) (preloaded format=pdflatex 2021.3.21)  22 MAR 2021 19:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.3) (preloaded format=pdflatex 2021.3.27)  27 MAR 2021 16:16
 entering extended mode
 **./mainfr.tex
 (mainfr.tex
@@ -55,7 +55,7 @@ Package: expl3 2021-02-18 L3 programming layer (loader)
 
 (C:\Users\ACHRAF\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3backend\l3backen
 d-pdftex.def
-File: l3backend-pdftex.def 2021-03-02 L3 backend support: PDF output (pdfTeX)
+File: l3backend-pdftex.def 2021-03-18 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count187
 \l__pdf_internal_box=\box47
 ))
@@ -1206,17 +1206,17 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 73.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 73.
-LaTeX Font Info:    Trying to load font information for U+fontawesomefree2 on i
+LaTeX Font Info:    Trying to load font information for U+fontawesomefree0 on i
 nput line 74.
 
 (C:\Users\ACHRAF\AppData\Local\Programs\MiKTeX 2.9\tex/latex/fontawesome5\ufont
-awesomefree2.fd)
-LaTeX Font Info:    Trying to load font information for U+fontawesomefree0 on i
+awesomefree0.fd)
+LaTeX Font Info:    Trying to load font information for U+fontawesomefree2 on i
 nput line 75.
 
 (C:\Users\ACHRAF\AppData\Local\Programs\MiKTeX 2.9\tex/latex/fontawesome5\ufont
-awesomefree0.fd)
-Overfull \hbox (16.26941pt too wide) in paragraph at lines 73--79
+awesomefree2.fd)
+Overfull \hbox (7.98941pt too wide) in paragraph at lines 73--79
 [][] 
  []
 
@@ -1226,11 +1226,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 83--85
  []
 
 LaTeX Font Info:    Trying to load font information for U+fontawesomefree1 on i
-nput line 88.
+nput line 87.
 
 (C:\Users\ACHRAF\AppData\Local\Programs\MiKTeX 2.9\tex/latex/fontawesome5\ufont
 awesomefree1.fd)
-Overfull \hbox (20.74951pt too wide) in paragraph at lines 86--91
+Overfull \hbox (23.06946pt too wide) in paragraph at lines 86--91
 [][] 
  []
 
@@ -1256,11 +1256,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 109--110
 
 LaTeX Font Info:    Font shape `T1/Raleway-TLF/m/n' will be
 (Font)              scaled to size 5.0pt on input line 113.
-
-Overfull \hbox (6.5616pt too wide) in paragraph at lines 112--116
-[][] 
- []
-
 
 Overfull \hbox (12.80386pt too wide) in paragraph at lines 111--117
 [][] 
@@ -1426,9 +1421,9 @@ Package rerunfilecheck Info: File `mainfr.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 29540 strings out of 479324
- 609736 string characters out of 2854404
- 947206 words of memory out of 3000000
+ 29540 strings out of 479321
+ 609736 string characters out of 2854162
+ 948180 words of memory out of 3000000
  46432 multiletter control sequences out of 15000+600000
  662308 words of font info for 87 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1438,10 +1433,10 @@ e5/fa5brands0.enc}{C:/Users/ACHRAF/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/
 dvips/fontawesome5/fa5free3.enc}{C:/Users/ACHRAF/AppData/Local/Programs/MiKTeX 
 2.9/fonts/enc/dvips/fontawesome5/fa5brands1.enc}{C:/Users/ACHRAF/AppData/Local/
 Programs/MiKTeX 2.9/fonts/enc/dvips/fontawesome5/fa5free1.enc}{C:/Users/ACHRAF/
-AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/fontawesome5/fa5free0.enc}{C:
+AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/fontawesome5/fa5free2.enc}{C:
 /Users/ACHRAF/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/raleway/a_bzmck
 q.enc}{C:/Users/ACHRAF/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/fontaw
-esome5/fa5free2.enc}{C:/Users/ACHRAF/AppData/Local/Programs/MiKTeX 2.9/fonts/en
+esome5/fa5free0.enc}{C:/Users/ACHRAF/AppData/Local/Programs/MiKTeX 2.9/fonts/en
 c/dvips/raleway/a_yqxcf3.enc}<C:/Users/ACHRAF/AppData/Local/Programs/MiKTeX 2.9
 /fonts/type1/public/fontawesome5/FontAwesome5Brands-Regular.pfb><C:/Users/ACHRA
 F/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/fontawesome5/FontAwesome
@@ -1449,7 +1444,7 @@ F/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/fontawesome5/FontAwesome
 impallari/raleway/Raleway-Bold.pfb><C:/Users/ACHRAF/AppData/Local/Programs/MiKT
 eX 2.9/fonts/type1/impallari/raleway/Raleway-Regular.pfb><C:/Users/ACHRAF/AppDa
 ta/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
-Output written on mainfr.pdf (1 page, 687258 bytes).
+Output written on mainfr.pdf (1 page, 688409 bytes).
 PDF statistics:
  98 PDF objects out of 1000 (max. 8388607)
  2 named destinations out of 1000 (max. 500000)

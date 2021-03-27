@@ -350,8 +350,8 @@
 \definecolor{cvpurple}{HTML}{b3b3b3}
 
 \definecolor{cvred}{HTML}{b3b3b3}
-\definecolor{cvgreen}{HTML}{00b3b3}
-\definecolor{cvyellow}{HTML}{00b3b3}
+\definecolor{cvgreen}{HTML}{b3b3b3}
+\definecolor{cvyellow}{HTML}{b3b3b3}
 
 
 % SMART DIAGRAM
