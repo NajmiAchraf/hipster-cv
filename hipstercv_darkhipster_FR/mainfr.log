@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.3) (preloaded format=pdflatex 2021.3.27)  27 MAR 2021 16:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.3) (preloaded format=pdflatex 2021.3.27)  30 MAR 2021 03:13
 entering extended mode
 **./mainfr.tex
 (mainfr.tex
@@ -1360,6 +1360,12 @@ LaTeX Font Info:    Font shape `U/fontawesomebrands0/solid/n' in size <7> not a
 vailable
 (Font)              Font shape `U/fontawesomebrands0/regular/n' tried instead o
 n input line 182.
+
+Underfull \hbox (badness 10000) in paragraph at lines 182--182
+[][][][][]\U/fontawesomebrands0/regular/n/7 œ[][][]\T1/Raleway-TLF/m/n/7 freeco
+decamp.org/certification/najmiachraf/scientific-computing-
+ []
+
 <./pic/python.png, id=35, 770.88pt x 770.88pt>
 File: ./pic/python.png Graphic file (type png)
 <use ./pic/python.png>
@@ -1423,11 +1429,11 @@ Package rerunfilecheck Info: File `mainfr.out' has not changed.
 Here is how much of TeX's memory you used:
  29540 strings out of 479321
  609736 string characters out of 2854162
- 948180 words of memory out of 3000000
+ 948130 words of memory out of 3000000
  46432 multiletter control sequences out of 15000+600000
  662308 words of font info for 87 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 142i,12n,144p,651b,1104s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 142i,12n,144p,639b,1104s stack positions out of 5000i,500n,10000p,200000b,80000s
 {C:/Users/ACHRAF/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/fontawesom
 e5/fa5brands0.enc}{C:/Users/ACHRAF/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/
 dvips/fontawesome5/fa5free3.enc}{C:/Users/ACHRAF/AppData/Local/Programs/MiKTeX 
@@ -1444,7 +1450,7 @@ F/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/fontawesome5/FontAwesome
 impallari/raleway/Raleway-Bold.pfb><C:/Users/ACHRAF/AppData/Local/Programs/MiKT
 eX 2.9/fonts/type1/impallari/raleway/Raleway-Regular.pfb><C:/Users/ACHRAF/AppDa
 ta/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
-Output written on mainfr.pdf (1 page, 688409 bytes).
+Output written on mainfr.pdf (1 page, 688378 bytes).
 PDF statistics:
  98 PDF objects out of 1000 (max. 8388607)
  2 named destinations out of 1000 (max. 500000)
