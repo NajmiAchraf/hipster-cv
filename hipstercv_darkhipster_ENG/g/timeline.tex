@@ -51,27 +51,35 @@
     \newcommand{\cvevent}[8] {
         \foreach \monthf/\yearf in {##1} {
             \foreach \montht/\yeart in {##2} {
-                \pgfmathparse{-#3/\fullrange*((\yearf-#1)+(\monthf/12))}
+                \pgfmathparse{#3/\fullrange*((\yearf-#1)+(\monthf/12))}
                 \let\startexp\pgfmathresult
-                \pgfmathparse{-#3/\fullrange*((\yeart-#1)+(\montht/12))}
+                \pgfmathparse{#3/\fullrange*((\yeart-#1)+(\montht/12))}
                 \let\endexp\pgfmathresult
                 \pgfmathparse{1/(\endexp-\startexp+1)}
                 \let\lenexp\pgfmathresult
                 \pgfmathparse{0.5*\endexp+0.5*\startexp}
                 \let\midexp\pgfmathresult
+                \pgfmathparse{\yearf - 2000}
+                \let\shortyear\pgfmathresult
                 
-                \pgfmathparse{-#3/\fullrange*((\yearf-#1)+(\monthf/12))}% get the event position
+                %get the event position
+                \pgfmathparse{#3/\fullrange*((\yearf-#1)+(\monthf/12))} 
                 \let\eventposition\pgfmathresult
                 
-                \filldraw[fill=##6, draw=none, opacity=0.9] (\startexp ,0.15+##8) rectangle (\endexp, 0.15+##8+0.3);
+                \filldraw[fill=##6, draw=none, opacity=0.9] (\startexp, 0.15+##8) rectangle (\endexp, 0.15+##8+0.3);
                 
-				\draw[draw=##6, line width=1.5pt, anchor=west] (\eventposition,0) -- (\eventposition+##5,##4);% line			
+                %line
+				\draw[draw=##6, line width=1.5pt, anchor=west] (\eventposition, 0) -- (\eventposition+##5, ##4); 		
 				
-				\node[fill=##6,right=-0.1em,inner sep=0.5em, label={[label distance=0]0:\colorbox{timelinebg}{\textcolor{timelinefont}{##3}}}] at (\eventposition+##5,##4) {\textcolor{##7}{##1}};% textbox			
+				%textbox
+				\node[fill=##6, right=-0.1em, inner sep=0.5em, label={[label distance=0]0:\colorbox{timelinebg}{\textcolor{timelinefont}{##3}}}] at (\eventposition+##5,##4) {\textcolor{##7}{##1}};
 				
-				% \node[below, inner sep=1.5em] at (\eventposition,0) {##1};%draw year below
-
-				\draw[fill=white,draw=##6, line width=0.1em]  (\eventposition,0) circle (0.1);%year circle
+				%draw year below
+				% \node[below, inner sep=1.5em] at (\eventposition, 0) {##1};
+				\node[below, inner sep=1em] at (\eventposition, 0) {\monthf\//\pgfmathprintnumber{\shortyear}};
+				
+				%year circle
+				\draw[fill=white, draw=##6, line width=0.1em]  (\eventposition, 0) circle (0.1);
             }
             \addtocounter{leftcount}{1}
         }
@@ -86,12 +94,12 @@
     %calc fullrange= number of years
     \pgfmathparse{(#2-#1)}
     \let\fullrange\pgfmathresult
-    \draw[draw=#4,line width=4pt] (0,0) -- (-#3,0) ;    %the timeline
+    \draw[draw=#4,line width=4pt] (0,0) -- (#3,0) ;    %the timeline
     
     %for each year put a horizontal line in place
     \setcounter{yearcount}{1}
     \whiledo{\value{yearcount} < \fullrange}{
-        \draw[fill=white,draw=#4, line width=2pt]  (-#3/\fullrange*\value{yearcount},0) circle (0.2);
+        \draw[fill=white,draw=#4, line width=2pt]  (#3/\fullrange*\value{yearcount},0) circle (0.2);
         \stepcounter{yearcount}
     }
 	
@@ -99,8 +107,8 @@
     \filldraw[fill=white!100,draw=#4,line width=3pt] (0,0) circle (0.5);
     \node[draw=none, label=\textcolor{#4}{\textbf{\small#1}}] at (0,-0.35) {}; 
     %end year
-    \filldraw[fill=white!100,draw=#4,line width=5pt] (-#3,0) circle (0.75);
-    \node[draw=none, label=\textcolor{#4}{\textbf{\large#2}}] at (-#3,-0.35) {}; 
+    \filldraw[fill=white!100,draw=#4,line width=5pt] (#3,0) circle (0.75);
+    \node[draw=none, label=\textcolor{#4}{\textbf{\large#2}}] at (#3,-0.35) {}; 
     
     
 }%end begin part of newenv
